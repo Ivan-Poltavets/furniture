@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\TileShop.API.props" />
+</Project>

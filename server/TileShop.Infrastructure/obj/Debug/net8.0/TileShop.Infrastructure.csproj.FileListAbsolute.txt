@@ -1,0 +1,31 @@
+/Users/ivanpoltavets/Projects/tile-shop/src/server/TileShop.Infrastructure/bin/Debug/net8.0/TileShop.Infrastructure.deps.json
+/Users/ivanpoltavets/Projects/tile-shop/src/server/TileShop.Infrastructure/bin/Debug/net8.0/TileShop.Infrastructure.dll
+/Users/ivanpoltavets/Projects/tile-shop/src/server/TileShop.Infrastructure/bin/Debug/net8.0/TileShop.Infrastructure.pdb
+/Users/ivanpoltavets/Projects/tile-shop/src/server/TileShop.Infrastructure/bin/Debug/net8.0/TileShop.Domain.dll
+/Users/ivanpoltavets/Projects/tile-shop/src/server/TileShop.Infrastructure/bin/Debug/net8.0/TileShop.Domain.pdb
+/Users/ivanpoltavets/Projects/tile-shop/src/server/TileShop.Infrastructure/obj/Debug/net8.0/TileShop.Infrastructure.csproj.AssemblyReference.cache
+/Users/ivanpoltavets/Projects/tile-shop/src/server/TileShop.Infrastructure/obj/Debug/net8.0/TileShop.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ivanpoltavets/Projects/tile-shop/src/server/TileShop.Infrastructure/obj/Debug/net8.0/TileShop.Infrastructure.AssemblyInfoInputs.cache
+/Users/ivanpoltavets/Projects/tile-shop/src/server/TileShop.Infrastructure/obj/Debug/net8.0/TileShop.Infrastructure.AssemblyInfo.cs
+/Users/ivanpoltavets/Projects/tile-shop/src/server/TileShop.Infrastructure/obj/Debug/net8.0/TileShop.Infrastructure.csproj.CoreCompileInputs.cache
+/Users/ivanpoltavets/Projects/tile-shop/src/server/TileShop.Infrastructure/obj/Debug/net8.0/TileShop.Infrastructure.sourcelink.json
+/Users/ivanpoltavets/Projects/tile-shop/src/server/TileShop.Infrastructure/obj/Debug/net8.0/TileShop.6D747073.Up2Date
+/Users/ivanpoltavets/Projects/tile-shop/src/server/TileShop.Infrastructure/obj/Debug/net8.0/TileShop.Infrastructure.dll
+/Users/ivanpoltavets/Projects/tile-shop/src/server/TileShop.Infrastructure/obj/Debug/net8.0/refint/TileShop.Infrastructure.dll
+/Users/ivanpoltavets/Projects/tile-shop/src/server/TileShop.Infrastructure/obj/Debug/net8.0/TileShop.Infrastructure.pdb
+/Users/ivanpoltavets/Projects/tile-shop/src/server/TileShop.Infrastructure/obj/Debug/net8.0/ref/TileShop.Infrastructure.dll
+C:\Users\polta\OneDrive\Рабочий стол\furniture\server\TileShop.Infrastructure\bin\Debug\net8.0\TileShop.Infrastructure.deps.json
+C:\Users\polta\OneDrive\Рабочий стол\furniture\server\TileShop.Infrastructure\bin\Debug\net8.0\TileShop.Infrastructure.dll
+C:\Users\polta\OneDrive\Рабочий стол\furniture\server\TileShop.Infrastructure\bin\Debug\net8.0\TileShop.Infrastructure.pdb
+C:\Users\polta\OneDrive\Рабочий стол\furniture\server\TileShop.Infrastructure\bin\Debug\net8.0\TileShop.Domain.dll
+C:\Users\polta\OneDrive\Рабочий стол\furniture\server\TileShop.Infrastructure\bin\Debug\net8.0\TileShop.Domain.pdb
+C:\Users\polta\OneDrive\Рабочий стол\furniture\server\TileShop.Infrastructure\obj\Debug\net8.0\TileShop.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\polta\OneDrive\Рабочий стол\furniture\server\TileShop.Infrastructure\obj\Debug\net8.0\TileShop.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\polta\OneDrive\Рабочий стол\furniture\server\TileShop.Infrastructure\obj\Debug\net8.0\TileShop.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\polta\OneDrive\Рабочий стол\furniture\server\TileShop.Infrastructure\obj\Debug\net8.0\TileShop.Infrastructure.AssemblyInfo.cs
+C:\Users\polta\OneDrive\Рабочий стол\furniture\server\TileShop.Infrastructure\obj\Debug\net8.0\TileShop.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\polta\OneDrive\Рабочий стол\furniture\server\TileShop.Infrastructure\obj\Debug\net8.0\TileShop.6D747073.Up2Date
+C:\Users\polta\OneDrive\Рабочий стол\furniture\server\TileShop.Infrastructure\obj\Debug\net8.0\TileShop.Infrastructure.dll
+C:\Users\polta\OneDrive\Рабочий стол\furniture\server\TileShop.Infrastructure\obj\Debug\net8.0\refint\TileShop.Infrastructure.dll
+C:\Users\polta\OneDrive\Рабочий стол\furniture\server\TileShop.Infrastructure\obj\Debug\net8.0\TileShop.Infrastructure.pdb
+C:\Users\polta\OneDrive\Рабочий стол\furniture\server\TileShop.Infrastructure\obj\Debug\net8.0\ref\TileShop.Infrastructure.dll

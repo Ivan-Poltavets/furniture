@@ -1,0 +1,33 @@
+﻿<Properties StartupConfiguration="{8E1F53EB-1618-412B-98E9-DDF9CF8D8FFD}|https">
+  <MonoDevelop.Ide.ItemProperties.TileShop.API PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="TileShop.API/Controllers/UsersController.cs">
+    <Files>
+      <File FileName="TileShop.API/Program.cs" />
+      <File FileName="TileShop.API/Controllers/OrdersController.cs" />
+      <File FileName="TileShop.API/Users/Requests/CreateUserRequest.cs" />
+      <File FileName="TileShop.API/Users/Requests/UpdateUserRequest.cs" />
+      <File FileName="TileShop.API/Controllers/UsersController.cs" Line="1" Column="1" />
+      <File FileName="TileShop.API/Controllers/AuthenticationController.cs" Line="9" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="TileShop" expanded="True">
+            <Node name="TileShop.API">
+              <Node name="Controllers" expanded="True">
+                <Node name="UsersController.cs" selected="True" />
+              </Node>
+              <Node name="Users" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>
