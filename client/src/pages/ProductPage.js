@@ -1,4 +1,4 @@
-import { useContext, useEffect, useState } from 'react'
+import React, { useContext, useEffect, useState } from 'react'
 import { PaperClipIcon, StarIcon } from '@heroicons/react/20/solid'
 import { RadioGroup } from '@headlessui/react'
 import { useNavigate, useParams } from "react-router-dom";
@@ -8,6 +8,7 @@ import { ChevronLeftIcon, ChevronRightIcon } from '@heroicons/react/20/solid';
 import { Context } from "../index";
 import { addItemToBasket } from "../http/userAPI";
 import UpdateProduct from "../components/modals/UpdateProduct";
+import RatingStars from "../components/RatingStars";
 
 const classNames = (...classes) => {
     return classes.filter(Boolean).join(' ');
@@ -71,7 +72,7 @@ const ProductPage = () => {
                 <div className="mx-auto mt-6 max-w-2xl sm:px-6 lg:grid lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
                     <div className="aspect-h-5 aspect-w-5 hidden overflow-hidden rounded-lg lg:block">
                         <img
-                            src={IMAGES_API_ROUTE + product.imageUrl}
+                            src={product.imageUrl}
                             className="h-full w-full object-cover object-center"
                         />
                     </div>
@@ -80,7 +81,9 @@ const ProductPage = () => {
                         <div className="lg:col-span-2 lg:border-r lg:border-gray-200 lg:pr-8 mb-10 text-center">
                             <h1 className="text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl">{product.name}</h1>
                         </div>
-                        <p>{product.averageRating}</p>
+                        <div style={{marginLeft:'40%'}}>
+                            <RatingStars className="star_product" averageRating={product.averageRating} />
+                        </div>
                         <h2 className="sr-only">Product information</h2>
                         <p className="text-3xl text-center tracking-tight text-gray-900">{product.price} грн</p>
 

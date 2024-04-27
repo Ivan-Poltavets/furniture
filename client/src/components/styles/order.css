@@ -75,3 +75,8 @@
     color: #ccc;
 
 }
+
+.rating-stars {
+    display: flex;
+    align-items: center;
+}

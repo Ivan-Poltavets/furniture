@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "PauwQNcyg0QvO17D9fy+vsTMgUyvPGL0y1sbD7i+kzF+2wpNoqxg0WPb1eAO92rvJuCfIpgddWNAoSlJtzSPCA==",
+  "dgSpecHash": "qy317pxAh9ZZn+90nqNGSJIwrXbotadfD/md1b35h23N9igrS6aiZgXJBadZp/dMYk01r46rDirJk/ecXQB9sA==",
   "success": true,
   "projectFilePath": "C:\\Users\\polta\\OneDrive\\Рабочий стол\\furniture\\server\\TileShop.Infrastructure\\TileShop.Infrastructure.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\polta\\.nuget\\packages\\bogus\\35.5.0\\bogus.35.5.0.nupkg.sha512",
     "C:\\Users\\polta\\.nuget\\packages\\bouncycastle.cryptography\\2.2.1\\bouncycastle.cryptography.2.2.1.nupkg.sha512",
+    "C:\\Users\\polta\\.nuget\\packages\\faker.net\\2.0.163\\faker.net.2.0.163.nupkg.sha512",
     "C:\\Users\\polta\\.nuget\\packages\\google.protobuf\\3.25.1\\google.protobuf.3.25.1.nupkg.sha512",
     "C:\\Users\\polta\\.nuget\\packages\\k4os.compression.lz4\\1.3.5\\k4os.compression.lz4.1.3.5.nupkg.sha512",
     "C:\\Users\\polta\\.nuget\\packages\\k4os.compression.lz4.streams\\1.3.5\\k4os.compression.lz4.streams.1.3.5.nupkg.sha512",
@@ -27,6 +29,7 @@
     "C:\\Users\\polta\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
     "C:\\Users\\polta\\.nuget\\packages\\mysql.data\\8.3.0\\mysql.data.8.3.0.nupkg.sha512",
     "C:\\Users\\polta\\.nuget\\packages\\mysql.entityframeworkcore\\8.0.0\\mysql.entityframeworkcore.8.0.0.nupkg.sha512",
+    "C:\\Users\\polta\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
     "C:\\Users\\polta\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
     "C:\\Users\\polta\\.nuget\\packages\\system.configuration.configurationmanager\\4.4.1\\system.configuration.configurationmanager.4.4.1.nupkg.sha512",
     "C:\\Users\\polta\\.nuget\\packages\\system.diagnostics.diagnosticsource\\7.0.2\\system.diagnostics.diagnosticsource.7.0.2.nupkg.sha512",

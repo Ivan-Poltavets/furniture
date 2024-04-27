@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { fetchOrders } from "../http/userAPI";
 import { format } from 'date-fns';
 import { uk } from 'date-fns/locale';
-import RatingStars from '../components/RatingStart'
+import RatingStars from '../components/RatingStars'
 import '../components/styles/user-profile.css';
 
 const Profile = () => {

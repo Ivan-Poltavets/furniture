@@ -3,7 +3,7 @@ import { fetchOrders } from "../http/userAPI";
 import { format } from 'date-fns';
 import { uk } from 'date-fns/locale';
 import '../components/styles/order.css'; // імпорт CSS-файлу
-import RatingStars from '../components/RatingStart';
+import RatingStars from '../components/RatingStars';
 
 const Order = () => {
     const [orders, setOrders] = useState([]);

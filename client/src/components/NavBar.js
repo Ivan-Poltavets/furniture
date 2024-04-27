@@ -1,8 +1,8 @@
 import React, { useContext, Fragment, useState } from 'react';
 import { Context } from "../index";
-import { Link, NavLink, useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import {
-    ADMIN_ROUTE, BASKET_ROUTE,
+    DASHBOARD_ROUTE,
     HOME_ROUTE,
     LOGIN_ROUTE,
     ORDERS_ROUTE,
@@ -22,8 +22,8 @@ const classNames = (...classes) => {
 const NavBar = observer(() => {
     const [isBasketOpen, setIsBasketOpen] = useState(false);
     const navigation = [
-        { name: 'Home', href: HOME_ROUTE, current: true },
-        { name: 'Shop', href: SHOP_ROUTE, current: false }
+        { name: 'Home', href: HOME_ROUTE, current: false },
+        { name: 'Shop', href: SHOP_ROUTE, current: false },
     ];
 
     const { user } = useContext(Context)
@@ -33,10 +33,11 @@ const NavBar = observer(() => {
         user.setUser({})
         user.setIsAuth(false)
         localStorage.clear()
+        navigate(HOME_ROUTE)
     }
 
-    if(user.isAdmin()){
-        navigation.push({name: 'Admin', href: ADMIN_ROUTE, current: false});
+    if(user.isOwner()){
+        navigation.push({name: 'Dashboard', href: DASHBOARD_ROUTE, current: false})
     }
 
 return (
@@ -92,7 +93,7 @@ return (
                                     <div>
                                         <Menu.Button
                                             className="relative flex rounded-full bg-gray-800 text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">
-                                        <span className="absolute -inset-1.5" />
+                                            <span className="absolute -inset-1.5"/>
                                             <span className="sr-only">Open user menu</span>
                                             <img
                                                 className="h-8 w-8 rounded-full"

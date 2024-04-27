@@ -63,6 +63,8 @@ using(var scope = app.Services.CreateScope())
     if (admin is null)
     {
         DatabaseSeed.SeedData(appContext);
+        DatabaseSeed.AddCategories(appContext);
+        DatabaseSeed.AddProducts(appContext);
     }
 }
 app.UseCors("AllowAll");

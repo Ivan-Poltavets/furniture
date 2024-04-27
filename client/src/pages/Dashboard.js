@@ -1,13 +1,22 @@
 import React from 'react';
 import {LineChart} from "@mui/x-charts";
 
+const months = [
+    "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"
+];
+
 const Dashboard = () => {
     return (
         <div>
             <LineChart
-                xAxis={[{ data: [1, 2, 3, 5, 8, 10] }]}
+                xAxis={[{
+                    id: 'Months',
+                    data: months,
+                    scaleType: 'point'
+                }]}
                 series={[
                     {
+                        label: 'Orders',
                         data: [2, 5.5, 2, 8.5, 1.5, 5],
                     },
                 ]}

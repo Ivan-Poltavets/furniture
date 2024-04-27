@@ -154,3 +154,6 @@ C:\Users\polta\OneDrive\Рабочий стол\furniture\server\TileShop.API\ob
 C:\Users\polta\OneDrive\Рабочий стол\furniture\server\TileShop.API\obj\Debug\net8.0\TileShop.API.genruntimeconfig.cache
 C:\Users\polta\OneDrive\Рабочий стол\furniture\server\TileShop.API\obj\Debug\net8.0\ref\TileShop.API.dll
 C:\Users\polta\OneDrive\Рабочий стол\furniture\server\TileShop.API\bin\Debug\net8.0\CloudinaryDotNet.dll
+C:\Users\polta\OneDrive\Рабочий стол\furniture\server\TileShop.API\bin\Debug\net8.0\Bogus.dll
+C:\Users\polta\OneDrive\Рабочий стол\furniture\server\TileShop.API\bin\Debug\net8.0\Faker.Net.6.0.dll
+C:\Users\polta\OneDrive\Рабочий стол\furniture\server\TileShop.API\bin\Debug\net8.0\de-DE\Faker.Net.6.0.resources.dll

@@ -3,7 +3,8 @@ import {
     HOME_ROUTE,
     LOGIN_ROUTE, ORDERS_ROUTE, PRODUCT_ROUTE,
     REGISTRATION_ROUTE,
-    SHOP_ROUTE
+    SHOP_ROUTE,
+    PROFILE_ROUTE
 } from "./utils/consts";
 import Shop from "./pages/Shop";
 import Auth from "./pages/Auth";
@@ -12,11 +13,16 @@ import ProductPage from "./pages/ProductPage";
 import RegisterPage from "./pages/RegisterPage";
 import Order from "./pages/Order";
 import Dashboard from "./pages/Dashboard";
+import Profile from "./pages/Profile";
 
 export const authRoutes = [
     {
         path: ORDERS_ROUTE,
         Component: Order
+    },
+    {
+        path: PROFILE_ROUTE,
+        Component: Profile
     }
 ]
 
@@ -47,5 +53,9 @@ export const publicRoutes = [
     {
         path: PRODUCT_ROUTE + '/:id',
         Component: ProductPage
+    },
+    {
+        path: DASHBOARD_ROUTE,
+        Component: Dashboard
     }
 ]

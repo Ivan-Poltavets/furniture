@@ -1,10 +1,73 @@
-﻿using System;
+﻿using Bogus;
 using TileShop.Domain.Entities;
 
 namespace TileShop.Infrastructure;
 
 public static class DatabaseSeed
 {
+    public static void AddCategories(ApplicationDbContext context)
+    {
+        var categoryFaker = new Faker<Category>()
+            .RuleFor(c => c.Name, f => f.Commerce.ProductName());
+        var categories = categoryFaker.Generate(15);
+        context.Category.AddRange(categories);
+        context.SaveChanges();
+    }    
+
+    public static async void AddProducts(ApplicationDbContext context)
+    {
+        var productFaker = new Faker<Product>()
+            .RuleFor(p => p.Name, f => f.Commerce.ProductName())
+            .RuleFor(p => p.Discount, f => f.Random.Number(0, 15))
+            .RuleFor(p => p.AverageRating, f => f.Random.Number(0, 5))
+            .RuleFor(p => p.CategoryId, f => f.Random.Number(1, 18))
+            .RuleFor(p => p.ImageUrl, f => f.Image.LoremPixelUrl())
+            .RuleFor(p => p.Price, f => f.Random.Number(1000, 25402));
+        var products = productFaker.Generate(100);
+
+        context.Product.AddRange(products);
+        context.SaveChanges();
+
+        var userFaker = new Faker<User>()
+            .RuleFor(u => u.FirstName, f => f.Name.FirstName())
+            .RuleFor(u => u.LastName, f => f.Name.LastName())
+            .RuleFor(u => u.Email, f => f.Internet.Email())
+            .RuleFor(u => u.PhoneNumber, f => f.Phone.PhoneNumber())
+            .RuleFor(u => u.PasswordHash, f => "EcsZlEhb0tq+4U3afErNTP44ruxqK0j+D1g/gd0zlGw=")
+            .RuleFor(u => u.PasswordSalt, f => "72998128-d8ad-4688-b06f-63d329330f71");
+
+        var users = userFaker.Generate(100);
+        context.User.AddRange(users);
+        context.SaveChanges();
+
+        var orderFaker = new Faker<Order>()
+            .RuleFor(x => x.UserId, f => f.Random.Number(1, 100))
+            .RuleFor(x => x.CreatedDate, f => f.Date.Past());
+
+        var orders = orderFaker.Generate(100);
+        context.Order.AddRange(orders);
+        context.SaveChanges();
+
+        var orderDetailsFaker = new Faker<OrderDetails>()
+            .RuleFor(x => x.ProductId, f => f.Random.Number(1, 100))
+            .RuleFor(x => x.Quantity, f => f.Random.Number(1, 5))
+            .RuleFor(x => x.OrderId, f => f.Random.Number(1, 100))
+            .RuleFor(x => x.UnitPrice, f => f.Random.Number(1000, 20000));
+        var orderDetails = orderDetailsFaker.Generate(150);
+        context.OrderDetails.AddRange(orderDetails);
+        context.SaveChanges();
+
+        var reviewFaker = new Faker<Review>()
+            .RuleFor(x => x.UserId, f => f.Random.Number(1, 20))
+            .RuleFor(x => x.ProductId, f => f.Random.Number(1, 20))
+            .RuleFor(x => x.Comment, f => f.Lorem.Text())
+            .RuleFor(x => x.CreatedDate, f => f.Date.Past());
+        var reviews = reviewFaker.Generate(50);
+        context.Review.AddRange(reviews);
+        context.SaveChanges();
+    }
+
+
     public static void SeedData(ApplicationDbContext context)
     {
         context.User.AddRange(new List<User>

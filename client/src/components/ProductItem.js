@@ -2,7 +2,7 @@ import React from 'react';
 import {useNavigate} from "react-router-dom";
 import {IMAGES_API_ROUTE, PRODUCT_ROUTE} from "../utils/consts";
 import {$host} from "../http";
-import RatingStars from '../components/RatingStart';
+import RatingStars from './RatingStars';
 const ProductItem = ({product}) => {
 
     const navigate = useNavigate();
