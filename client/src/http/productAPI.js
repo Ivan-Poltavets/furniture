@@ -50,3 +50,7 @@ export const uploadProductImage = async (id, req) =>{
     });
 }
 
+export const createReview = async (req) => {
+    const {data} = await $authHost.post('api/reviews', req);
+    return data;
+}

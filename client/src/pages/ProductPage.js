@@ -1,6 +1,6 @@
 import React, { useContext, useEffect, useState } from 'react'
 import { useNavigate, useParams } from "react-router-dom";
-import { fetchOneProduct, removeProduct } from "../http/productAPI";
+import { createReview, fetchOneProduct, removeProduct } from "../http/productAPI";
 import { SHOP_ROUTE } from "../utils/consts";
 import { Context } from "../index";
 import { addItemToBasket } from "../http/userAPI";
@@ -9,6 +9,7 @@ import RatingStars from "../components/RatingStars";
 import {format} from "date-fns";
 import {uk} from "date-fns/locale";
 import { Loader } from '../components/ui/Loader';
+import { Button, TextField } from '@mui/material';
 
 const classNames = (...classes) => {
     return classes.filter(Boolean).join(' ');
@@ -19,6 +20,8 @@ const ProductPage = () => {
     const [product, setProduct] = useState({});
     const [loading, setLoading] = useState(true);
     const [tabOpen, setTabOpen] = useState(false);
+    const [reviewText, setReviewText] = useState("");
+    const [reviews, setReviews] = useState([]);
     const [openUpdateProduct, setOpenUpdateProduct] = useState(false);
     const navigate = useNavigate();
 
@@ -32,9 +35,12 @@ const ProductPage = () => {
     useEffect(() => {
         fetchOneProduct(id).then(data => {
             setProduct(data);
+            const sortedReviews = [...data.reviews].sort((a, b) => new Date(b.createdDate) - new Date(a.createdDate));
+            setReviews(sortedReviews);
+            console.log(reviews);
         })
             .finally(() => setLoading(false));
-    }, [openUpdateProduct]);
+    }, [openUpdateProduct, tabOpen]);
 
     if (loading) {
         return <Loader/>
@@ -62,6 +68,26 @@ const ProductPage = () => {
         }
         catch(e)
         {
+            console.error(e);
+        }
+    }
+
+    const addReview = async () => {
+        try{
+            if(reviewText !== ""){
+                const request = {
+                    productId: product.id,
+                    userId: Number(user.user.id),
+                    comment: reviewText
+                }
+                console.log(request);
+                let data = await createReview(request);
+                data.user = user.user;
+                setReviewText("");
+                setReviews([data, ...reviews]);
+            }
+        }
+        catch(e){
             console.error(e);
         }
     }
@@ -138,7 +164,25 @@ const ProductPage = () => {
                 {tabOpen
                     ?
                     <div>
-                        {product.reviews.map((review) => (
+                        <div>
+                            {user.isClient()
+                                ? <div className='flex flex-col justify-center'>
+                                    <TextField
+                                        sx={{width: '100%'}}
+                                        id="outlined-multiline-static"
+                                        label="Write review"
+                                        value={reviewText}
+                                        multiline
+                                        rows={4}
+                                        variant="filled"
+                                        onChange={(e) => setReviewText(e.target.value)}
+                                    />
+                                    <Button onClick={addReview} sx={{display:'block', margin: '5px 0'}} variant="outlined">Leave a review</Button>
+                                </div>
+                                : null
+                            }
+                        </div>
+                        {reviews.map((review) => (
                             <div key={review.id} className="flex flex-col gap-4 p-4">
                                 <div className="flex justify justify-between">
                                     <div className="flex gap-2">

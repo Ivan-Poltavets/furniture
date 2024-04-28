@@ -10,7 +10,6 @@ import { Loader } from '../components/ui/Loader';
 const Basket = ({open, setOpen}) => {
     const {user} = useContext(Context);
     const navigate = useNavigate();
-    const [loading, setLoading] = useState(true);
     const [items, setItems] = useState([]);
     const [basket, setBasket] = useState({});
 
@@ -27,8 +26,7 @@ const Basket = ({open, setOpen}) => {
                 user.setBasketTotal(calculateTotal(data));
                 setBasket(data);
                 setItems(data.items);
-            })
-                .finally(() => setLoading(false));
+            });
         }
         catch(e){
             alert(e);
@@ -65,10 +63,6 @@ const Basket = ({open, setOpen}) => {
         catch (e){
             console.error(e);
         }
-    }
-
-    if(loading){
-        return <Loader/>
     }
 
     return (

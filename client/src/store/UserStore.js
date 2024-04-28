@@ -33,6 +33,10 @@ export default class UserStore {
         return this._user !== null && this._user.role === 2;
     }
 
+    isClient(){
+        return this._user !== null && this._user.role === 0;
+    }
+
     get isAuth(){
         return this._isAuth;
     }

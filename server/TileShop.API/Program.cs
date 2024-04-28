@@ -1,4 +1,4 @@
-using System.Security.Claims;
+﻿using System.Security.Claims;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Storage;
 using TileShop.API;
@@ -62,9 +62,15 @@ using(var scope = app.Services.CreateScope())
     var user = appContext.User.FirstOrDefault(x => x.Id == 1);
     if (user is null)
     {
-        DatabaseSeed.SeedData(appContext);
-        DatabaseSeed.AddCategories(appContext);
-        DatabaseSeed.AddProducts(appContext);
+        DatabaseSeed.SeedCategoriesFromCsv(appContext, "C:\\Users\\polta\\OneDrive\\Ðàáî÷èé ñòîë\\gittt\\categories.csv");
+        DatabaseSeed.SeedProductsFromCsv(appContext, "C:\\Users\\polta\\OneDrive\\Ðàáî÷èé ñòîë\\gittt\\products.csv");
+        DatabaseSeed.SeedFeaturesFromCsv(appContext, "C:\\Users\\polta\\OneDrive\\Ðàáî÷èé ñòîë\\gittt\\features.csv");
+        DatabaseSeed.SeedFeatureValuesFromCsv(appContext, "C:\\Users\\polta\\OneDrive\\Ðàáî÷èé ñòîë\\gittt\\featurevalues.csv");
+        DatabaseSeed.SeedUsersFromCsv(appContext, "C:\\Users\\polta\\OneDrive\\Ðàáî÷èé ñòîë\\gittt\\users.csv");
+        DatabaseSeed.SeedOrdersFromCsv(appContext, "C:\\Users\\polta\\OneDrive\\Ðàáî÷èé ñòîë\\gittt\\orders.csv");
+        DatabaseSeed.SeedOrderDetailsFromCsv(appContext, "C:\\Users\\polta\\OneDrive\\Ðàáî÷èé ñòîë\\gittt\\details.csv");
+        DatabaseSeed.SeedRatingFromCsv(appContext, "C:\\Users\\polta\\OneDrive\\Ðàáî÷èé ñòîë\\gittt\\rating.csv");
+        DatabaseSeed.SeedReviewFromCsv(appContext, "C:\\Users\\polta\\OneDrive\\Ðàáî÷èé ñòîë\\gittt\\reviews.csv");
     }
 }
 app.UseCors("AllowAll");

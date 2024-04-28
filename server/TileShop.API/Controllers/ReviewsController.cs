@@ -1,4 +1,5 @@
 using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using TileShop.API.Reviews.Requests;
 using TileShop.Application.Services.Interfaces;
@@ -6,6 +7,7 @@ using TileShop.Domain.Dtos;
 
 namespace TileShop.API.Controllers;
 
+[Authorize]
 [ApiController]
 [Route("api/[controller]")]
 public class ReviewsController : ControllerBase
