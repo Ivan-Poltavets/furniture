@@ -4,7 +4,8 @@ import { XMarkIcon } from '@heroicons/react/24/outline'
 import { Context } from '..';
 import { useNavigate } from 'react-router-dom';
 import {LOGIN_ROUTE, ORDERS_ROUTE} from '../utils/consts';
-import {createBasket, doCheckout, fetchBasket, removeItemFromBasket} from '../http/userAPI';
+import {doCheckout, fetchBasket, removeItemFromBasket} from '../http/userAPI';
+import { Loader } from '../components/ui/Loader';
 
 const Basket = ({open, setOpen}) => {
     const {user} = useContext(Context);
@@ -26,10 +27,8 @@ const Basket = ({open, setOpen}) => {
                 user.setBasketTotal(calculateTotal(data));
                 setBasket(data);
                 setItems(data.items);
-                console.log(data);
             })
                 .finally(() => setLoading(false));
-                console.log(basket.items);
         }
         catch(e){
             alert(e);
@@ -60,6 +59,8 @@ const Basket = ({open, setOpen}) => {
             await doCheckout();
             setItems({});
             navigate(ORDERS_ROUTE);
+
+            setOpen(false);
         }
         catch (e){
             console.error(e);
@@ -67,7 +68,7 @@ const Basket = ({open, setOpen}) => {
     }
 
     if(loading){
-        return <div>Loading...</div>
+        return <Loader/>
     }
 
     return (

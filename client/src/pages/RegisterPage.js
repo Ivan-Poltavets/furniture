@@ -1,6 +1,6 @@
 import React, { useContext, useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import { HOME_ROUTE, LOGIN_ROUTE, SHOP_ROUTE } from '../utils/consts';
+import { HOME_ROUTE, LOGIN_ROUTE } from '../utils/consts';
 import { check, createBasket, login, registration } from '../http/userAPI';
 import { Context } from '..';
 

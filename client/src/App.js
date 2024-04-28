@@ -5,6 +5,7 @@ import {check} from "./http/userAPI";
 import NavBar from "./components/NavBar";
 import AppRouter from "./components/AppRouter";
 import {Context} from "./index";
+import { Loader } from "./components/ui/Loader";
 
 
 const App = observer(() =>{
@@ -23,7 +24,7 @@ const App = observer(() =>{
   }, []);
 
   if(loading){
-      return <div>Loading...</div>
+      return <Loader/>
   }
 
   return (

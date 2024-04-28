@@ -1,12 +1,13 @@
 import React, { useContext, Fragment, useState, useEffect } from 'react';
 import { observer } from "mobx-react-lite";
 import { Context } from "../index";
-import { Dialog, Disclosure, Menu, Transition } from '@headlessui/react'
+import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { ChevronDownIcon, FunnelIcon, MinusIcon, PlusIcon, Squares2X2Icon } from '@heroicons/react/20/solid'
 import ProductList from './ProductList';
 import CreateCategory from "./modals/CreateCategory";
 import {useNavigate} from "react-router-dom";
 import {CREATE_PRODUCT_ROUTE} from "../utils/consts";
+import { Loader } from './ui/Loader';
 
 
 function classNames(...classes) {
@@ -18,6 +19,7 @@ const TypeBar = observer(() => {
     const { product, user } = useContext(Context);
     const [openCreateCategory, setOpenCreateCategory] = useState(false);
     const navigate = useNavigate();
+    const [loading, setLoading] = useState(true);
 
     const filters = [
         {
@@ -62,7 +64,6 @@ const TypeBar = observer(() => {
     }
 
     useEffect(() => {
-        console.log(selectedCategories);
         if (selectedCategories.length > 0) {
             setFilteredProducts(products.filter(
                 (product) => selectedCategories.includes(product.category.id)
@@ -70,25 +71,32 @@ const TypeBar = observer(() => {
         }
         else {
             setFilteredProducts(products);
+            setLoading(false);
         }
     }, [products, selectedCategories]);
 
     useEffect(() => {
-        console.log(selectedSort);
-        const sortedProducts = [...filteredProducts].sort((a, b) => {
-            if (selectedSort.id === 2 || selectedSort.id === 3) {
-                const priceA = a.price;
-                const priceB = b.price;
-                return selectedSort.id == 2 ? priceA - priceB : priceB - priceA;
-            }
-            if (selectedSort.id === 1) {
-                const ratingA = a.averageRating;
-                const ratingB = b.averageRating;
-                return ratingB - ratingA;
-            }
-        });
-        setFilteredProducts(sortedProducts);
+        if(selectedSort !== null){
+            const sortedProducts = [...filteredProducts].sort((a, b) => {
+                if (selectedSort.id === 2 || selectedSort.id === 3) {
+                    const priceA = a.price;
+                    const priceB = b.price;
+                    return selectedSort.id == 2 ? priceA - priceB : priceB - priceA;
+                }
+                if (selectedSort.id === 1) {
+                    const ratingA = a.averageRating;
+                    const ratingB = b.averageRating;
+                    return ratingB - ratingA;
+                }
+            });
+            setFilteredProducts(sortedProducts);
+        }
+
     }, [selectedSort])
+
+    if(loading){
+        return <Loader/>
+    }
 
     return (
         <div className="bg-white">

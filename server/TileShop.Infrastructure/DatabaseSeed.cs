@@ -66,6 +66,20 @@ public static class DatabaseSeed
         var reviews = reviewFaker.Generate(50);
         context.Review.AddRange(reviews);
         context.SaveChanges();
+
+        var featureFaker = new Faker<Feature>()
+            .RuleFor(x => x.Name, f => f.Random.Word())
+            .RuleFor(x => x.ProductId, f => f.Random.Number(1, 100));
+        var features = featureFaker.Generate(200);
+        context.Feature.AddRange(features);
+        context.SaveChanges();
+
+        var featureValueFaker = new Faker<FeatureValue>()
+            .RuleFor(x => x.FeatureId, f => f.Random.Number(1, 200))
+            .RuleFor(x => x.Value, f => f.Random.Word());
+        var featureValues = featureValueFaker.Generate(400);
+        context.FeatureValue.AddRange(featureValues);
+        context.SaveChanges();
     }
 
 

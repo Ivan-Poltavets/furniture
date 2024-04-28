@@ -62,15 +62,9 @@ using(var scope = app.Services.CreateScope())
     var user = appContext.User.FirstOrDefault(x => x.Id == 1);
     if (user is null)
     {
-        DatabaseSeed.SeedCategoriesFromCsv(appContext, "C:\\Users\\polta\\OneDrive\\Рабочий стол\\gittt\\categories.csv");
-        DatabaseSeed.SeedProductsFromCsv(appContext, "C:\\Users\\polta\\OneDrive\\Рабочий стол\\gittt\\products.csv");
-        DatabaseSeed.SeedFeaturesFromCsv(appContext, "C:\\Users\\polta\\OneDrive\\Рабочий стол\\gittt\\features.csv");
-        DatabaseSeed.SeedFeatureValuesFromCsv(appContext, "C:\\Users\\polta\\OneDrive\\Рабочий стол\\gittt\\featurevalues.csv");
-        DatabaseSeed.SeedUsersFromCsv(appContext, "C:\\Users\\polta\\OneDrive\\Рабочий стол\\gittt\\users.csv");
-        DatabaseSeed.SeedOrdersFromCsv(appContext, "C:\\Users\\polta\\OneDrive\\Рабочий стол\\gittt\\orders.csv");
-        DatabaseSeed.SeedOrderDetailsFromCsv(appContext, "C:\\Users\\polta\\OneDrive\\Рабочий стол\\gittt\\details.csv");
-        DatabaseSeed.SeedRatingFromCsv(appContext, "C:\\Users\\polta\\OneDrive\\Рабочий стол\\gittt\\rating.csv");
-        DatabaseSeed.SeedReviewFromCsv(appContext, "C:\\Users\\polta\\OneDrive\\Рабочий стол\\gittt\\reviews.csv");
+        DatabaseSeed.SeedData(appContext);
+        DatabaseSeed.AddCategories(appContext);
+        DatabaseSeed.AddProducts(appContext);
     }
 }
 app.UseCors("AllowAll");

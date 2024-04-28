@@ -69,6 +69,6 @@ public class BasketService : IBasketService
 
     public async Task DeleteAllBasketItemsAsync(int basketId)
     {
-        await _basketDetailsRepository.DeleteAsync(basketId);
+        await _basketDetailsRepository.DeleteAllBasketItems(basketId);
     }
 }

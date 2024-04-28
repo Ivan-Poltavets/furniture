@@ -2,13 +2,12 @@ import React, { useState, useEffect } from 'react';
 import RatingStars from '../components/RatingStars';
 import { PRODUCT_ROUTE} from "../utils/consts";
 import {useNavigate} from "react-router-dom";
+import { Loader } from '../components/ui/Loader';
 const Home = () => {
     const [products, setProducts] = useState([]);
-
-    useEffect(() => {
-        getProduct();
-    }, []);
+    const [loading, setLoading] = useState(true);
     const navigate = useNavigate();
+
     const getProduct = async () => {
         try {
             const token = localStorage.getItem('token');
@@ -31,15 +30,23 @@ const Home = () => {
         }
     };
 
-    // Function to extract unique categories from products
+    useEffect(() => {
+        getProduct()
+            .finally(() => setLoading(false));
+    }, []);
+
+    if(loading){
+        return <Loader/>
+    }
+    
+    
+
     const extractCategories = () => {
         const categoriesSet = new Set();
         products.forEach(product => categoriesSet.add(product.category.name));
         return Array.from(categoriesSet);
     };
 
-    // Function to render products for each category
-    // Function to render products for each category
     const renderProductsByCategory = () => {
         const categories = extractCategories();
 

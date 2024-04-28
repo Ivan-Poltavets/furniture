@@ -14,7 +14,6 @@ export const login = async (email, password) => {
 
 export const check = async () => {
     const {data} = await $authHost.get('api/users' )
-    console.log(data);
     return data;
 }
 

@@ -1,14 +1,14 @@
 import React, { useContext, useEffect, useState } from 'react'
-import { PaperClipIcon, StarIcon } from '@heroicons/react/20/solid'
-import { RadioGroup } from '@headlessui/react'
 import { useNavigate, useParams } from "react-router-dom";
 import { fetchOneProduct, removeProduct } from "../http/productAPI";
-import { IMAGES_API_ROUTE, SHOP_ROUTE } from "../utils/consts";
-import { ChevronLeftIcon, ChevronRightIcon } from '@heroicons/react/20/solid';
+import { SHOP_ROUTE } from "../utils/consts";
 import { Context } from "../index";
 import { addItemToBasket } from "../http/userAPI";
 import UpdateProduct from "../components/modals/UpdateProduct";
 import RatingStars from "../components/RatingStars";
+import {format} from "date-fns";
+import {uk} from "date-fns/locale";
+import { Loader } from '../components/ui/Loader';
 
 const classNames = (...classes) => {
     return classes.filter(Boolean).join(' ');
@@ -23,16 +23,21 @@ const ProductPage = () => {
     const navigate = useNavigate();
 
     const { id } = useParams();
+
+    const getFormattedDate = (date) => {
+        let dateObject = new Date(date);
+        return format(dateObject, "d MMMM yyyy", { locale: uk });
+    }
+
     useEffect(() => {
         fetchOneProduct(id).then(data => {
-            console.log(data);
             setProduct(data);
         })
             .finally(() => setLoading(false));
-    }, []);
+    }, [openUpdateProduct]);
 
     if (loading) {
-        return <div>Loading...</div>
+        return <Loader/>
     }
 
     const addToCart = async () => {
@@ -43,7 +48,6 @@ const ProductPage = () => {
                 productId: product.id,
                 quantity: 1
             }
-            console.log(request);
             await addItemToBasket(request);
         }
         catch (error) {
@@ -51,12 +55,7 @@ const ProductPage = () => {
         }
     }
 
-    const editProduct = async () => {
-
-    }
-
     const deleteProduct = async () => {
-        console.log(product.id)
         try{
             await removeProduct(product.id);
             navigate(SHOP_ROUTE);
@@ -140,8 +139,21 @@ const ProductPage = () => {
                     ?
                     <div>
                         {product.reviews.map((review) => (
-                            <div>
-                                <p>{review.comment}</p>
+                            <div key={review.id} className="flex flex-col gap-4 p-4">
+                                <div className="flex justify justify-between">
+                                    <div className="flex gap-2">
+                                        <div className="w-7 h-7 text-center rounded-full bg-indigo-300">{review.user.firstName.slice(0,1)}</div>
+                                        <span>{review.user.firstName} {review.user.lastName}</span>
+                                    </div>
+                                </div>
+
+                                <div>
+                                    {review.comment}
+                                </div>
+
+                                <div className="flex justify-end">
+                                    <span>{getFormattedDate(review.createdDate)}</span>
+                                </div>
                             </div>
                         ))}
                     </div>
@@ -153,27 +165,18 @@ const ProductPage = () => {
                         </div>
                         <div className="mt-6 border-t border-gray-100">
                             <dl className="divide-y divide-gray-100">
-                                <div className="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
-                                    <dt className="text-sm font-medium leading-6 text-gray-900">Full name</dt>
-                                    <dd className="mt-1 text-sm leading-6 text-gray-700 sm:col-span-2 sm:mt-0">Margot
-                                        Foster
-                                    </dd>
-                                </div>
-                                <div className="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
-                                    <dt className="text-sm font-medium leading-6 text-gray-900">Application for</dt>
-                                    <dd className="mt-1 text-sm leading-6 text-gray-700 sm:col-span-2 sm:mt-0">Backend
-                                        Developer
-                                    </dd>
-                                </div>
-                                <div className="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
-                                    <dt className="text-sm font-medium leading-6 text-gray-900">Email address</dt>
-                                    <dd className="mt-1 text-sm leading-6 text-gray-700 sm:col-span-2 sm:mt-0">margotfoster@example.com</dd>
-                                </div>
-                                <div className="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
-                                    <dt className="text-sm font-medium leading-6 text-gray-900">Salary expectation
-                                    </dt>
-                                    <dd className="mt-1 text-sm leading-6 text-gray-700 sm:col-span-2 sm:mt-0">$120,000</dd>
-                                </div>
+                                {product.features.length > 0
+                                    ?
+                                    product.features.map((feature) => (
+                                    <div key={feature.id} className="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-0">
+                                        <dt className="text-sm font-medium leading-6 text-gray-900">{feature.name}</dt>
+                                        <dd className="mt-1 text-sm leading-6 text-gray-700 sm:col-span-2 sm:mt-0">
+                                            {feature.values.map(value => value.value).join(',')}
+                                        </dd>
+                                    </div>
+                                ))
+                                : <div className='flex justify-center'>No features</div>
+                                }
                             </dl>
                         </div>
                     </div>

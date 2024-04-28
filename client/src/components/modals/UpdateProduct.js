@@ -1,14 +1,13 @@
-import React, {Fragment, useRef, useState} from 'react';
+import React, {Fragment, useEffect, useRef, useState} from 'react';
 import {Dialog, Transition} from "@headlessui/react";
 import {updateProduct, uploadProductImage} from "../../http/productAPI";
-import {PRODUCT_ROUTE} from "../../utils/consts";
 import {useNavigate} from "react-router-dom";
 
 const UpdateProduct = ({open, setOpen, product}) => {
     const cancelButtonRef = useRef(null);
-    const [productName, setProductName] = useState("");
-    const [discount, setDiscount] = useState("");
-    const [price, setPrice] = useState("");
+    const [productName, setProductName] = useState(product.name);
+    const [discount, setDiscount] = useState(product.discount);
+    const [price, setPrice] = useState(product.price);
     const [image, setImage] = useState(null);
     const navigate = useNavigate();
 
@@ -23,6 +22,7 @@ const UpdateProduct = ({open, setOpen, product}) => {
                 categoryId: product.categoryId,
             }
             await updateProduct(json);
+            setOpen(false);
         }catch (e){
             console.error(e);
         }
@@ -44,6 +44,10 @@ const UpdateProduct = ({open, setOpen, product}) => {
             console.error(e);
         }
     }
+
+    useEffect(() => {
+
+    }, []);
 
     return (
         <Transition.Root show={open} as={Fragment}>
@@ -109,7 +113,7 @@ const UpdateProduct = ({open, setOpen, product}) => {
                                                         <input
                                                             id="productName"
                                                             name="productName"
-                                                            value={product.name}
+                                                            value={productName}
                                                             required
                                                             className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                                                             onChange={(e) => setProductName(e.target.value)}
@@ -125,8 +129,8 @@ const UpdateProduct = ({open, setOpen, product}) => {
                                                         <input
                                                             id="discount"
                                                             name="discount"
-                                                            value={product.discount}
                                                             type="number"
+                                                            value={discount}
                                                             required
                                                             className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                                                             onChange={(e) => setDiscount(e.target.value)}
@@ -142,7 +146,7 @@ const UpdateProduct = ({open, setOpen, product}) => {
                                                         <input
                                                             id="price"
                                                             name="price"
-                                                            value={product.price}
+                                                            value={price}
                                                             required
                                                             className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                                                             onChange={(e) => setPrice(e.target.value)}

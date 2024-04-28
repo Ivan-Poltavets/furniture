@@ -33,7 +33,6 @@ public class BasketDetailsRepository : BaseRepository<BasketDetails>, IBasketDet
     {
         var basketDetails = await EntitySet
             .Where(x => x.BasketId == id)
-            .AsNoTracking()
             .ToListAsync();
 
         EntitySet.RemoveRange(basketDetails);

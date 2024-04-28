@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { BarChart } from "@mui/x-charts/BarChart";
 import { LineChart } from '@mui/x-charts/LineChart';
 import { fetchAverageOrderTotalByMonth, fetchOrderCountByMonth, fetchOrdersFile, fetchSumOrderTotalCountByMonth } from '../http/userAPI';
+import { Loader } from '../components/ui/Loader';
 
 const months = [
     "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"
@@ -51,7 +52,6 @@ const Dashboard = () => {
     const exportOrders = () => {
         fetchOrdersFile()
             .then(data => {
-                console.log(data);
                 const url = window.URL.createObjectURL(new Blob([data]));
                 const link = document.createElement('a');
                 link.href = url;
@@ -64,7 +64,7 @@ const Dashboard = () => {
     }
 
     if (loading) {
-        return <div>Loading...</div>
+        return <Loader/>
     }
 
     return (

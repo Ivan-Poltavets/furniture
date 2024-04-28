@@ -1,10 +1,8 @@
-import React, { Fragment, useContext, useEffect, useState } from 'react';
-import { Listbox, Transition } from "@headlessui/react";
-import { CheckIcon, ChevronUpDownIcon } from "@heroicons/react/20/solid";
-import { Context } from "../index";
+import React, { Fragment, useEffect, useState } from 'react';
 import { createProduct, fetchCategories } from "../http/productAPI";
 import { useNavigate } from "react-router-dom";
 import { SHOP_ROUTE } from "../utils/consts";
+import { Loader } from '../components/ui/Loader';
 
 function classNames(...classes) {
     return classes.filter(Boolean).join(' ')
@@ -33,7 +31,7 @@ const CreateProduct = () => {
     }, [])
 
     if (loading) {
-        return <div>Loading...</div>
+        return <Loader/>
     }
 
     const addProduct = async () => {
@@ -125,7 +123,7 @@ const CreateProduct = () => {
                             </div>
                         </div>
 
-                        <div className='flex justify-center'>
+                        <div className='mt-5 flex justify-center'>
                             <button
                                 className="flex justify-center rounded-md bg-indigo-600 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                                 onClick={() => addProduct()}

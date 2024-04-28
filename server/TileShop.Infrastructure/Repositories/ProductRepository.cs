@@ -13,6 +13,10 @@ public class ProductRepository : BaseRepository<Product>, IProductRepository
     {
         return await EntitySet
             .AsNoTracking()
+            .Include(x => x.Reviews)
+            .ThenInclude(x => x.User)
+            .Include(x => x.Features)
+            .ThenInclude(x => x.Values)
             .FirstOrDefaultAsync(x => x.Id == id);
     }
 

@@ -1,9 +1,9 @@
 import {observer} from "mobx-react-lite";
 import {useContext, useEffect, useState} from "react";
-import {NavLink, useLocation, useNavigate} from "react-router-dom";
-import {LOGIN_ROUTE, REGISTRATION_ROUTE, SHOP_ROUTE} from "../utils/consts";
+import {useNavigate} from "react-router-dom";
+import {REGISTRATION_ROUTE, SHOP_ROUTE} from "../utils/consts";
 import {Context} from "../index";
-import {login, registration, check, createBasket} from "../http/userAPI";
+import {login, check} from "../http/userAPI";
 
 const Auth = observer(() => {
     const {user} = useContext(Context)
