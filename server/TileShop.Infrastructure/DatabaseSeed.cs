@@ -59,14 +59,23 @@ public static class DatabaseSeed
         "https://www.ikea.com/sa/en/images/products/norraryd-bar-stool-with-backrest-black__0728070_pe736043_s5.jpg?f=xl",
     };
 
+    public static List<string> FeatureNames = new()
+    {
+        "Maximum load",
+        "Multiplicity of packaging",
+        "Package size, m3",
+        "Gauge width",
+        "Gauge clearance"
+    };
+
     public static void AddCategories(ApplicationDbContext context)
     {
         var categoryFaker = new Faker<Category>()
             .RuleFor(c => c.Name, f => f.Commerce.ProductName());
-        var categories = categoryFaker.Generate(15);
+        var categories = categoryFaker.Generate(17);
         context.Category.AddRange(categories);
         context.SaveChanges();
-    }    
+    }
 
     public static async void AddProducts(ApplicationDbContext context)
     {
@@ -81,7 +90,10 @@ public static class DatabaseSeed
 
         context.Product.AddRange(products);
         context.SaveChanges();
+    }
 
+    public static void AddUsers(ApplicationDbContext context)
+    {
         var userFaker = new Faker<User>()
             .RuleFor(u => u.FirstName, f => f.Name.FirstName())
             .RuleFor(u => u.LastName, f => f.Name.LastName())
@@ -94,6 +106,16 @@ public static class DatabaseSeed
         context.User.AddRange(users);
         context.SaveChanges();
 
+        var userId = 1;
+        var basketFaker = new Faker<Basket>()
+            .RuleFor(x => x.UserId, f => userId++);
+        var baskets = basketFaker.Generate(100);
+        context.Basket.AddRange(baskets);
+        context.SaveChanges();
+    }
+
+    public static void AddOrders(ApplicationDbContext context)
+    {
         var orderFaker = new Faker<Order>()
             .RuleFor(x => x.UserId, f => f.Random.Number(1, 100))
             .RuleFor(x => x.CreatedDate, f => f.Date.Past())
@@ -102,7 +124,10 @@ public static class DatabaseSeed
         var orders = orderFaker.Generate(100);
         context.Order.AddRange(orders);
         context.SaveChanges();
+    }
 
+    public static void AddOrderDetails(ApplicationDbContext context)
+    {
         var orderDetailsFaker = new Faker<OrderDetails>()
             .RuleFor(x => x.ProductId, f => f.Random.Number(1, 100))
             .RuleFor(x => x.Quantity, f => f.Random.Number(1, 5))
@@ -112,6 +137,10 @@ public static class DatabaseSeed
         context.OrderDetails.AddRange(orderDetails);
         context.SaveChanges();
 
+    }
+
+    public static void AddReviews(ApplicationDbContext context)
+    {
         var reviewFaker = new Faker<Review>()
             .RuleFor(x => x.UserId, f => f.Random.Number(1, 20))
             .RuleFor(x => x.ProductId, f => f.Random.Number(1, 20))
@@ -120,14 +149,20 @@ public static class DatabaseSeed
         var reviews = reviewFaker.Generate(50);
         context.Review.AddRange(reviews);
         context.SaveChanges();
+    }
 
+    public static void AddFeatures(ApplicationDbContext context)
+    {
         var featureFaker = new Faker<Feature>()
             .RuleFor(x => x.Name, f => f.Random.Word())
             .RuleFor(x => x.ProductId, f => f.Random.Number(1, 100));
         var features = featureFaker.Generate(200);
         context.Feature.AddRange(features);
         context.SaveChanges();
+    }
 
+    public static void AddFeatureValues(ApplicationDbContext context)
+    {
         var featureValueFaker = new Faker<FeatureValue>()
             .RuleFor(x => x.FeatureId, f => f.Random.Number(1, 200))
             .RuleFor(x => x.Value, f => f.Random.Word());
@@ -174,10 +209,6 @@ public static class DatabaseSeed
             PhoneNumber = "380994057538"
         });
 
-        var shelfCategory = context.Category.Add(new Category { Name = "Шафи" });
-        var bedCategory = context.Category.Add(new Category { Name = "Ліжка" });
-        var tableCategory = context.Category.Add(new Category { Name = "Столи" });
-        var chairCategory = context.Category.Add(new Category { Name = "Крісла" });
         context.SaveChanges();
 
         context.Basket.AddRange(new List<Basket>
@@ -187,98 +218,6 @@ public static class DatabaseSeed
             new() { UserId = 3 }
         });
 
-        var shelf1 = context.Product.Add(new Product
-        {
-            Name = "Шафа розпашна",
-            CategoryId = shelfCategory.Entity.Id,
-            Price = 9780,
-            Discount = 17
-        });
-
-        var shelf2 = context.Product.Add(new Product
-        {
-            Name = "Шафа купе",
-            CategoryId = shelfCategory.Entity.Id,
-            Price = 14690,
-            Discount = 17
-        });
-
-        var shelf3 = context.Product.Add(new Product
-        {
-            Name = "Шафа купе \"Преміум\"",
-            CategoryId = shelfCategory.Entity.Id,
-            Price = 7970,
-            Discount = 17
-        });
-
-        var shelf4 = context.Product.Add(new Product
-        {
-            Name = "Шафа К0006 \"Kuba\" Moreli",
-            CategoryId = shelfCategory.Entity.Id,
-            Price = 12195,
-            Discount = 25
-        });
-
-        context.SaveChanges();
-
-        var chair1 = context.Product.Add(new Product
-        {
-            Name = "Стілець ASTI 4A antr (BOX-2)",
-            CategoryId = chairCategory.Entity.Id,
-            Price = 2067,
-            Discount = 0
-        });
-
-        var chair2 = context.Product.Add(new Product
-        {
-            Name = "Крісло ULTRA GTP Tilt PL64",
-            CategoryId = chairCategory.Entity.Id,
-            Price = 3444,
-            Discount = 10
-        });
-
-        context.SaveChanges();
-
-        context.Review.Add(new Review
-        {
-            ProductId = shelf1.Entity.Id,
-            CreatedDate = DateTime.UtcNow,
-            Comment = "Good shelf, very useful",
-            UserId = testUser.Entity.Id
-        });
-
-        context.Rating.Add(new Rating
-        {
-            Score = 5,
-            ProductId = shelf1.Entity.Id,
-            UserId = testUser.Entity.Id
-        });
-
-        var widthFeature = context.Feature.Add(new Feature
-        {
-            Name = "Ширина",
-            ProductId = shelf1.Entity.Id,
-        });
-
-        var heightFeature = context.Feature.Add(new Feature
-        {
-            Name = "Висота",
-            ProductId = shelf1.Entity.Id
-        });
-
-        context.SaveChanges();
-
-        context.FeatureValue.Add(new FeatureValue
-        {
-            FeatureId = widthFeature.Entity.Id,
-            Value = "500"
-        });
-
-        context.FeatureValue.Add(new FeatureValue
-        {
-            FeatureId = heightFeature.Entity.Id,
-            Value = "1200"
-        });
         context.SaveChanges();
     }
 
@@ -294,28 +233,20 @@ public static class DatabaseSeed
                 string line;
                 while ((line = reader.ReadLine()) != null)
                 {
-                    string[] parts = line.Split(',');
-                    if(parts.Length >= 5)
+                    var random = new Random();
+
+                    var product = new Product
                     {
-                        if (int.TryParse(parts[1], out int categoryId)
-                            && double.TryParse(parts[2], out double discount)
-                            && decimal.TryParse(parts[3], out decimal price)
-                            && double.TryParse(parts[4], out double averageRating))
-                        {
-                            var product = new Product
-                            {
-                                Name = parts[0],
-                                CategoryId = categoryId,
-                                Discount = discount,
-                                ImageUrl = Images[index],
-                                Price = price,
-                                AverageRating = averageRating
-                            };
-                            products.Add(product);
-                            index += 1;
-                            index %= imageLenght;
-                        }
-                    }
+                        Name = line,
+                        CategoryId = random.Next(1, 15),
+                        Discount = random.Next(0, 10),
+                        ImageUrl = Images[index],
+                        Price = random.Next(1000, 35000),
+                        AverageRating = random.NextDouble() * 5,
+                    };
+                    products.Add(product);
+                    index += 1;
+                    index %= imageLenght;
                 }
             }
         }
@@ -409,119 +340,62 @@ public static class DatabaseSeed
         context.SaveChanges();
     }
 
-    public static void SeedOrdersFromCsv(ApplicationDbContext context, string filePath)
+    public static void SeedOrders(ApplicationDbContext context)
     {
         var orders = new List<Order>();
+        var random = new Random();
 
-        try
+        for(int i = 0; i < 100; i++)
         {
-            using (var reader = new StreamReader(filePath))
+            var order = new Order
             {
-                string line;
-                while ((line = reader.ReadLine()) != null)
-                {
-                    string[] parts = line.Split(',');
-                    if (parts.Length >= 3)
-                    {
-                        if (int.TryParse(parts[0], out int userId)
-                            && DateTime.TryParse(parts[1], out DateTime date)
-                            && decimal.TryParse(parts[2], out decimal totalPrice))
-                        {
-                            var order = new Order
-                            {
-                                CreatedDate = date,
-                                UserId = userId,
-                                TotalPrice = totalPrice
-                            };
-                            orders.Add(order);
-                        }
-                    }
-                }
-            }
-        }
-        catch (Exception ex)
-        {
-            Console.WriteLine($"Error reading file:{ex.Message}");
+                CreatedDate = new DateTime(2024, random.Next(1, 4), random.Next(1, 28)),
+                UserId = random.Next(1, 100),
+                TotalPrice = random.Next(1000, 120000)
+            };
+            orders.Add(order);
         }
 
         context.Order.AddRange(orders);
         context.SaveChanges();
     }
 
-    public static void SeedOrderDetailsFromCsv(ApplicationDbContext context, string filePath)
+    public static void SeedOrderDetails(ApplicationDbContext context)
     {
         var details = new List<OrderDetails>();
+        var random = new Random();
 
-        try
+        for(int i = 0; i < 200; i++)
         {
-            using (var reader = new StreamReader(filePath))
+            var detail = new OrderDetails
             {
-                string line;
-                while ((line = reader.ReadLine()) != null)
-                {
-                    string[] parts = line.Split(',');
-                    if (parts.Length >= 4)
-                    {
-                        if (int.TryParse(parts[0], out int orderId)
-                            && int.TryParse(parts[1], out int productId)
-                            && int.TryParse(parts[2], out int quantity)
-                            && decimal.TryParse(parts[3], out decimal unitPrice))
-                        {
-                            var detail = new OrderDetails
-                            {
-                                OrderId = orderId,
-                                ProductId = productId,
-                                Quantity = quantity,
-                                UnitPrice = unitPrice
-                            };
-                            details.Add(detail);
-                        }
-                    }
-                }
-            }
+                OrderId = random.Next(1, 99),
+                ProductId = random.Next(1, 60),
+                Quantity = random.Next(1, 3),
+                UnitPrice = random.Next(1000, 35000)
+            };
+            details.Add(detail);
         }
-        catch (Exception ex)
-        {
-            Console.WriteLine($"Error reading file:{ex.Message}");
-        }
+        
 
         context.OrderDetails.AddRange(details);
         context.SaveChanges();
     }
 
-    public static void SeedRatingFromCsv(ApplicationDbContext context, string filePath)
+    public static void SeedRating(ApplicationDbContext context)
     {
         var ratings = new List<Rating>();
+        var random = new Random();
 
-        try
+        for(int i = 0; i < 200; i++)
         {
-            using (var reader = new StreamReader(filePath))
+            var rating = new Rating
             {
-                string line;
-                while ((line = reader.ReadLine()) != null)
-                {
-                    string[] parts = line.Split(',');
-                    if (parts.Length >= 3)
-                    {
-                        if (int.TryParse(parts[0], out int userId)
-                            && int.TryParse(parts[1], out int productId)
-                            && double.TryParse(parts[2], out double score))
-                        {
-                            var rating = new Rating
-                            {
-                                UserId = userId,
-                                ProductId = productId,
-                                Score = score
-                            };
-                            ratings.Add(rating);
-                        }
-                    }
-                }
-            }
-        }
-        catch (Exception ex)
-        {
-            Console.WriteLine($"Error reading file:{ex.Message}");
+                ProductId = random.Next(1, 60),
+                Score = random.Next(0, 5),
+                UserId = random.Next(1, 100)
+            };
+            ratings.Add(rating);
         }
 
         context.Rating.AddRange(ratings);
@@ -531,6 +405,7 @@ public static class DatabaseSeed
     public static void SeedReviewFromCsv(ApplicationDbContext context, string filePath)
     {
         var reviews = new List<Review>();
+        var random = new Random();
 
         try
         {
@@ -539,23 +414,14 @@ public static class DatabaseSeed
                 string line;
                 while ((line = reader.ReadLine()) != null)
                 {
-                    string[] parts = line.Split(',');
-                    if (parts.Length >= 4)
+                    var review = new Review
                     {
-                        if (int.TryParse(parts[0], out int userId)
-                            && int.TryParse(parts[1], out int productId)
-                            && DateTime.TryParse(parts[2], out DateTime date))
-                        {
-                            var review = new Review
-                            {
-                                ProductId = productId,
-                                CreatedDate = date,
-                                UserId = userId,
-                                Comment = parts[3]
-                            };
-                            reviews.Add(review);
-                        }
-                    }
+                        Comment = line,
+                        CreatedDate = new DateTime(random.Next(2019, 2024), random.Next(1, 12), random.Next(1, 28)),
+                        ProductId = random.Next(1, 60),
+                        UserId = random.Next(1, 100),
+                    };
+                    reviews.Add(review);
                 }
             }
         }
@@ -568,72 +434,49 @@ public static class DatabaseSeed
         context.SaveChanges();
     }
 
-    public static void SeedFeaturesFromCsv(ApplicationDbContext context, string filePath)
+    public static void SeedFeatures(ApplicationDbContext context)
     {
         var features = new List<Feature>();
-
-        try
+        var random = new Random();
+        for(int i = 1; i < 60; i++)
         {
-            using (var reader = new StreamReader(filePath))
+            features.AddRange(new List<Feature>
             {
-                string line;
-                while ((line = reader.ReadLine()) != null)
+                new Feature
                 {
-                    string[] parts = line.Split(',');
-                    if (parts.Length >= 2)
-                    {
-                        if (int.TryParse(parts[1], out int productId))
-                        {
-                            var feature = new Feature
-                            {
-                                Name = parts[0],
-                                ProductId = productId
-                            };
-                            features.Add(feature);
-                        }
-                    }
+                    Name = "Width",
+                    ProductId = i,
+                },
+                new Feature
+                {
+                    Name = "Height",
+                    ProductId = i
+                },
+                new Feature
+                {
+                    Name = FeatureNames[random.Next(0, FeatureNames.Count - 1)],
+                    ProductId = i
                 }
-            }
-        }
-        catch (Exception ex)
-        {
-            Console.WriteLine($"Error reading file:{ex.Message}");
+            });
         }
 
         context.Feature.AddRange(features);
         context.SaveChanges();
     }
 
-    public static void SeedFeatureValuesFromCsv(ApplicationDbContext context, string filePath)
+    public static void SeedFeatureValues(ApplicationDbContext context)
     {
         var featureValues = new List<FeatureValue>();
+        var random = new Random();
 
-        try
+        for(int i = 0; i < 100; i++)
         {
-            using (var reader = new StreamReader(filePath))
+            var value = new FeatureValue
             {
-                string line;
-                while ((line = reader.ReadLine()) != null)
-                {
-                    string[] parts = line.Split(',');
-                    if (parts.Length >= 4)
-                    {
-                        if (int.TryParse(parts[0], out int featureId))
-                        {
-                            var review = new FeatureValue
-                            {
-                                FeatureId = featureId,
-                                Value = parts[1]
-                            };
-                            featureValues.Add(review);
-                        }
-                    }
-                }
-            }
-        }
-        catch (Exception ex)
-        {
-            Console.WriteLine($"Error reading file:{ex.Message}");
+                FeatureId = random.Next(1, 59),
+                Value = random.Next(100, 1500).ToString()
+            };
+            featureValues.Add(value);
         }
 
         context.FeatureValue.AddRange(featureValues);
