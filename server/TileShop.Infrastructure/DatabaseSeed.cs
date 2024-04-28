@@ -42,7 +42,8 @@ public static class DatabaseSeed
 
         var orderFaker = new Faker<Order>()
             .RuleFor(x => x.UserId, f => f.Random.Number(1, 100))
-            .RuleFor(x => x.CreatedDate, f => f.Date.Past());
+            .RuleFor(x => x.CreatedDate, f => f.Date.Past())
+            .RuleFor(x => x.TotalPrice, f => f.Random.Number(1000, 250000));
 
         var orders = orderFaker.Generate(100);
         context.Order.AddRange(orders);
@@ -60,7 +61,7 @@ public static class DatabaseSeed
         var reviewFaker = new Faker<Review>()
             .RuleFor(x => x.UserId, f => f.Random.Number(1, 20))
             .RuleFor(x => x.ProductId, f => f.Random.Number(1, 20))
-            .RuleFor(x => x.Comment, f => f.Lorem.Text())
+            .RuleFor(x => x.Comment, f => f.Random.Words())
             .RuleFor(x => x.CreatedDate, f => f.Date.Past());
         var reviews = reviewFaker.Generate(50);
         context.Review.AddRange(reviews);
@@ -110,6 +111,13 @@ public static class DatabaseSeed
         var tableCategory = context.Category.Add(new Category { Name = "Столи" });
         var chairCategory = context.Category.Add(new Category { Name = "Крісла" });
         context.SaveChanges();
+
+        context.Basket.AddRange(new List<Basket>
+        {
+            new(){ UserId = 1 },
+            new() { UserId = 2 },
+            new() { UserId = 3 }
+        });
 
         var shelf1 = context.Product.Add(new Product
         {
@@ -203,6 +211,360 @@ public static class DatabaseSeed
             FeatureId = heightFeature.Entity.Id,
             Value = "1200"
         });
+        context.SaveChanges();
+    }
+
+    public static void SeedProductsFromCsv(ApplicationDbContext context, string filePath)
+    {
+        var products = new List<Product>();
+
+        try
+        {
+            using(var reader = new StreamReader(filePath))
+            {
+                string line;
+                while ((line = reader.ReadLine()) != null)
+                {
+                    string[] parts = line.Split(',');
+                    if(parts.Length >= 5)
+                    {
+                        if (int.TryParse(parts[1], out int categoryId)
+                            && double.TryParse(parts[2], out double discount)
+                            && decimal.TryParse(parts[3], out decimal price)
+                            && double.TryParse(parts[4], out double averageRating))
+                        {
+                            var product = new Product
+                            {
+                                Name = parts[0],
+                                CategoryId = categoryId,
+                                Discount = discount,
+                                Price = price,
+                                AverageRating = averageRating
+                            };
+                            products.Add(product);
+                        }
+                    }
+                }
+            }
+        }
+        catch(Exception ex)
+        {
+            Console.WriteLine($"Error reading file:{ex.Message}");
+        }
+
+        context.Product.AddRange(products);
+        context.SaveChanges();
+    }
+
+    public static void SeedCategoriesFromCsv(ApplicationDbContext context, string filePath)
+    {
+        var categories = new List<Category>();
+
+        try
+        {
+            using (var reader = new StreamReader(filePath))
+            {
+                string line;
+                while ((line = reader.ReadLine()) != null)
+                {
+                    if (!string.IsNullOrEmpty(line))
+                    {
+                        var category = new Category
+                        {
+                            Name = line
+                        };
+                        categories.Add(category);
+                    }
+                }
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error reading file:{ex.Message}");
+        }
+
+        context.Category.AddRange(categories);
+        context.SaveChanges();
+    }
+
+    public static void SeedUsersFromCsv(ApplicationDbContext context, string filePath)
+    {
+        var users = new List<User>();
+        var baskets = new List<Basket>();
+
+        try
+        {
+            using (var reader = new StreamReader(filePath))
+            {
+                string line;
+                while ((line = reader.ReadLine()) != null)
+                {
+                    string[] parts = line.Split(',');
+                    if (parts.Length >= 5)
+                    {
+                        if (int.TryParse(parts[0], out int id))
+                        {
+                            var user = new User
+                            {
+                                Id = id,
+                                FirstName = parts[1],
+                                LastName = parts[2],
+                                Email = parts[3],
+                                PhoneNumber = parts[4],
+                                PasswordHash = "EcsZlEhb0tq+4U3afErNTP44ruxqK0j+D1g/gd0zlGw=",
+                                PasswordSalt = "72998128-d8ad-4688-b06f-63d329330f71"
+                            };
+                            var basket = new Basket
+                            {
+                                UserId = id
+                            };
+                            users.Add(user);
+                            baskets.Add(basket);
+                        }
+                    }
+                }
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error reading file:{ex.Message}");
+        }
+
+        context.User.AddRange(users);
+        context.SaveChanges();
+
+        context.Basket.AddRange(baskets);
+        context.SaveChanges();
+    }
+
+    public static void SeedOrdersFromCsv(ApplicationDbContext context, string filePath)
+    {
+        var orders = new List<Order>();
+
+        try
+        {
+            using (var reader = new StreamReader(filePath))
+            {
+                string line;
+                while ((line = reader.ReadLine()) != null)
+                {
+                    string[] parts = line.Split(',');
+                    if (parts.Length >= 3)
+                    {
+                        if (int.TryParse(parts[0], out int userId)
+                            && DateTime.TryParse(parts[1], out DateTime date)
+                            && decimal.TryParse(parts[2], out decimal totalPrice))
+                        {
+                            var order = new Order
+                            {
+                                CreatedDate = date,
+                                UserId = userId,
+                                TotalPrice = totalPrice
+                            };
+                            orders.Add(order);
+                        }
+                    }
+                }
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error reading file:{ex.Message}");
+        }
+
+        context.Order.AddRange(orders);
+        context.SaveChanges();
+    }
+
+    public static void SeedOrderDetailsFromCsv(ApplicationDbContext context, string filePath)
+    {
+        var details = new List<OrderDetails>();
+
+        try
+        {
+            using (var reader = new StreamReader(filePath))
+            {
+                string line;
+                while ((line = reader.ReadLine()) != null)
+                {
+                    string[] parts = line.Split(',');
+                    if (parts.Length >= 4)
+                    {
+                        if (int.TryParse(parts[0], out int orderId)
+                            && int.TryParse(parts[1], out int productId)
+                            && int.TryParse(parts[2], out int quantity)
+                            && decimal.TryParse(parts[3], out decimal unitPrice))
+                        {
+                            var detail = new OrderDetails
+                            {
+                                OrderId = orderId,
+                                ProductId = productId,
+                                Quantity = quantity,
+                                UnitPrice = unitPrice
+                            };
+                            details.Add(detail);
+                        }
+                    }
+                }
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error reading file:{ex.Message}");
+        }
+
+        context.OrderDetails.AddRange(details);
+        context.SaveChanges();
+    }
+
+    public static void SeedRatingFromCsv(ApplicationDbContext context, string filePath)
+    {
+        var ratings = new List<Rating>();
+
+        try
+        {
+            using (var reader = new StreamReader(filePath))
+            {
+                string line;
+                while ((line = reader.ReadLine()) != null)
+                {
+                    string[] parts = line.Split(',');
+                    if (parts.Length >= 3)
+                    {
+                        if (int.TryParse(parts[0], out int userId)
+                            && int.TryParse(parts[1], out int productId)
+                            && double.TryParse(parts[2], out double score))
+                        {
+                            var rating = new Rating
+                            {
+                                UserId = userId,
+                                ProductId = productId,
+                                Score = score
+                            };
+                            ratings.Add(rating);
+                        }
+                    }
+                }
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error reading file:{ex.Message}");
+        }
+
+        context.Rating.AddRange(ratings);
+        context.SaveChanges();
+    }
+
+    public static void SeedReviewFromCsv(ApplicationDbContext context, string filePath)
+    {
+        var reviews = new List<Review>();
+
+        try
+        {
+            using (var reader = new StreamReader(filePath))
+            {
+                string line;
+                while ((line = reader.ReadLine()) != null)
+                {
+                    string[] parts = line.Split(',');
+                    if (parts.Length >= 4)
+                    {
+                        if (int.TryParse(parts[0], out int userId)
+                            && int.TryParse(parts[1], out int productId)
+                            && DateTime.TryParse(parts[2], out DateTime date))
+                        {
+                            var review = new Review
+                            {
+                                ProductId = productId,
+                                CreatedDate = date,
+                                UserId = userId,
+                                Comment = parts[3]
+                            };
+                            reviews.Add(review);
+                        }
+                    }
+                }
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error reading file:{ex.Message}");
+        }
+
+        context.Review.AddRange(reviews);
+        context.SaveChanges();
+    }
+
+    public static void SeedFeaturesFromCsv(ApplicationDbContext context, string filePath)
+    {
+        var features = new List<Feature>();
+
+        try
+        {
+            using (var reader = new StreamReader(filePath))
+            {
+                string line;
+                while ((line = reader.ReadLine()) != null)
+                {
+                    string[] parts = line.Split(',');
+                    if (parts.Length >= 2)
+                    {
+                        if (int.TryParse(parts[1], out int productId))
+                        {
+                            var feature = new Feature
+                            {
+                                Name = parts[0],
+                                ProductId = productId
+                            };
+                            features.Add(feature);
+                        }
+                    }
+                }
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error reading file:{ex.Message}");
+        }
+
+        context.Feature.AddRange(features);
+        context.SaveChanges();
+    }
+
+    public static void SeedFeatureValuesFromCsv(ApplicationDbContext context, string filePath)
+    {
+        var featureValues = new List<FeatureValue>();
+
+        try
+        {
+            using (var reader = new StreamReader(filePath))
+            {
+                string line;
+                while ((line = reader.ReadLine()) != null)
+                {
+                    string[] parts = line.Split(',');
+                    if (parts.Length >= 4)
+                    {
+                        if (int.TryParse(parts[0], out int featureId))
+                        {
+                            var review = new FeatureValue
+                            {
+                                FeatureId = featureId,
+                                Value = parts[1]
+                            };
+                            featureValues.Add(review);
+                        }
+                    }
+                }
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error reading file:{ex.Message}");
+        }
+
+        context.FeatureValue.AddRange(featureValues);
         context.SaveChanges();
     }
 }

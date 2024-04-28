@@ -40,7 +40,7 @@ const Order = () => {
     };
 
     return (
-        <div className='orders-container'>
+        <div className='orders-container mt-10'>
             {orders.map(order => (
                 <div key={order.id} className="order-container">
                     <h3 className="order-id">Order ID: {order.id}</h3>

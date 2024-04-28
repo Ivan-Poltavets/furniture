@@ -43,6 +43,7 @@ const ProductPage = () => {
                 productId: product.id,
                 quantity: 1
             }
+            console.log(request);
             await addItemToBasket(request);
         }
         catch (error) {

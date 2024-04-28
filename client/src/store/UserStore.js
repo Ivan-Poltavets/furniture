@@ -5,6 +5,7 @@ export default class UserStore {
         this._isAuth = false;
         this._user = {};
         this._basket = {};
+        this._basketTotal = 0;
         makeAutoObservable(this);
     }
 
@@ -18,6 +19,10 @@ export default class UserStore {
 
     setBasket(basket) {
         this._basket = basket;
+    }
+
+    setBasketTotal(total){
+        this._basketTotal = total;
     }
 
     isAdmin() {
@@ -38,5 +43,9 @@ export default class UserStore {
 
     get basket(){
         return this._basket;
+    }
+
+    get basketTotal(){
+        return this._basketTotal;
     }
 }

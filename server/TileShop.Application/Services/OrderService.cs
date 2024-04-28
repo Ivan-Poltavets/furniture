@@ -21,6 +21,30 @@ public class OrderService : IOrderService
         _orderDetailsRepository = orderDetailsRepository;
     }
 
+    public Dictionary<int, decimal> GetAverageOrderPrice()
+    {
+        var average = _orderRepository.GetAverageOrderForCurrentYearByMonth();
+        return average;
+    }
+
+    public Dictionary<int, decimal> GetTotalOrder()
+    {
+        var total = _orderRepository.GetTotalOrderInCurrentYearForMonth();
+        return total;
+    }
+
+    public Dictionary<int, int> GetOrderCountForCurrentYearByMonth()
+    {
+        var orders = _orderRepository.GetOrderCountForCurrentYearByMonth();
+        return orders;
+    }
+
+    public async Task<List<OrderDto>> GetOrdersForLast30DaysAsync()
+    {
+        var orders = await _orderRepository.GetOrdersForLast30DaysAsync();
+        return _mapper.Map<List<OrderDto>>(orders);
+    }
+
     public async Task<List<OrderDto>> GetUserOrdersAsync(int userId)
     {
         var orders = await _orderRepository.GetUserOrdersAsync(userId);

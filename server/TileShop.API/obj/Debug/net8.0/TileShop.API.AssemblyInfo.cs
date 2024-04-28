@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TileShop.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5ad2b5c51efff9c56de9b138f876c90977eb6629")]
 [assembly: System.Reflection.AssemblyProductAttribute("TileShop.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TileShop.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

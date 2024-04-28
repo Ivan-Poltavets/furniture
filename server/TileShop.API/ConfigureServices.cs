@@ -20,7 +20,7 @@ public static class ConfigureServices
     {
         services.AddDbContext<ApplicationDbContext>(options =>
         {
-            options.UseMySQL(configuration.GetConnectionString("DbConnection"));
+            options.UseSqlServer(configuration.GetConnectionString("DbConnection"));
         });
         services.AddAutoMapper(typeof(CategoryToDto), typeof(CreateCategoryRequest));
         services.Configure<CloudinarySettings>(configuration.GetSection("CloudinarySettings"));

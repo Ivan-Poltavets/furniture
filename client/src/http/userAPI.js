@@ -47,3 +47,25 @@ export const fetchOrders = async () => {
     const {data} = await $authHost.get('api/orders');
     return data;
 }
+
+export const fetchOrderCountByMonth = async () => {
+    const {data} = await $authHost.get('api/orders/count');
+    return data;
+}
+
+export const fetchSumOrderTotalCountByMonth = async () => {
+    const {data} = await $authHost.get('api/orders/total');
+    return data;
+}
+
+export const fetchAverageOrderTotalByMonth = async () => {
+    const {data} = await $authHost.get('api/orders/average');
+    return data;
+}
+
+export const fetchOrdersFile = async () => {
+    const {data} = await $authHost.get('api/orders/last', {
+        responseType: 'blob',
+    });
+    return data;
+}

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\polta\\OneDrive\\Рабочий стол\\furniture\\server\\TileShop.Application\\TileShop.Application.csproj": {}
+    "C:\\Users\\polta\\OneDrive\\Рабочий стол\\gittt\\furniture\\server\\TileShop.Application\\TileShop.Application.csproj": {}
   },
   "projects": {
-    "C:\\Users\\polta\\OneDrive\\Рабочий стол\\furniture\\server\\TileShop.Application\\TileShop.Application.csproj": {
+    "C:\\Users\\polta\\OneDrive\\Рабочий стол\\gittt\\furniture\\server\\TileShop.Application\\TileShop.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\polta\\OneDrive\\Рабочий стол\\furniture\\server\\TileShop.Application\\TileShop.Application.csproj",
+        "projectUniqueName": "C:\\Users\\polta\\OneDrive\\Рабочий стол\\gittt\\furniture\\server\\TileShop.Application\\TileShop.Application.csproj",
         "projectName": "TileShop.Application",
-        "projectPath": "C:\\Users\\polta\\OneDrive\\Рабочий стол\\furniture\\server\\TileShop.Application\\TileShop.Application.csproj",
+        "projectPath": "C:\\Users\\polta\\OneDrive\\Рабочий стол\\gittt\\furniture\\server\\TileShop.Application\\TileShop.Application.csproj",
         "packagesPath": "C:\\Users\\polta\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\polta\\OneDrive\\Рабочий стол\\furniture\\server\\TileShop.Application\\obj\\",
+        "outputPath": "C:\\Users\\polta\\OneDrive\\Рабочий стол\\gittt\\furniture\\server\\TileShop.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\polta\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\polta\\OneDrive\\Рабочий стол\\furniture\\server\\TileShop.Domain\\TileShop.Domain.csproj": {
-                "projectPath": "C:\\Users\\polta\\OneDrive\\Рабочий стол\\furniture\\server\\TileShop.Domain\\TileShop.Domain.csproj"
+              "C:\\Users\\polta\\OneDrive\\Рабочий стол\\gittt\\furniture\\server\\TileShop.Domain\\TileShop.Domain.csproj": {
+                "projectPath": "C:\\Users\\polta\\OneDrive\\Рабочий стол\\gittt\\furniture\\server\\TileShop.Domain\\TileShop.Domain.csproj"
               }
             }
           }
@@ -98,14 +98,14 @@
         }
       }
     },
-    "C:\\Users\\polta\\OneDrive\\Рабочий стол\\furniture\\server\\TileShop.Domain\\TileShop.Domain.csproj": {
+    "C:\\Users\\polta\\OneDrive\\Рабочий стол\\gittt\\furniture\\server\\TileShop.Domain\\TileShop.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\polta\\OneDrive\\Рабочий стол\\furniture\\server\\TileShop.Domain\\TileShop.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\polta\\OneDrive\\Рабочий стол\\gittt\\furniture\\server\\TileShop.Domain\\TileShop.Domain.csproj",
         "projectName": "TileShop.Domain",
-        "projectPath": "C:\\Users\\polta\\OneDrive\\Рабочий стол\\furniture\\server\\TileShop.Domain\\TileShop.Domain.csproj",
+        "projectPath": "C:\\Users\\polta\\OneDrive\\Рабочий стол\\gittt\\furniture\\server\\TileShop.Domain\\TileShop.Domain.csproj",
         "packagesPath": "C:\\Users\\polta\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\polta\\OneDrive\\Рабочий стол\\furniture\\server\\TileShop.Domain\\obj\\",
+        "outputPath": "C:\\Users\\polta\\OneDrive\\Рабочий стол\\gittt\\furniture\\server\\TileShop.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\polta\\AppData\\Roaming\\NuGet\\NuGet.Config",

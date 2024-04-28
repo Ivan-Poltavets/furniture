@@ -12,7 +12,7 @@ public class ProductDto
     public int CategoryId { get; set; }
     public double AverageRating { get; set; }
 
-    public Category Category { get; set; }
+    public CategoryDto Category { get; set; }
     public List<Feature> Features { get; set; }
     public List<Review> Reviews { get; set; }
 }

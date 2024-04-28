@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6S5R3HOeH+PBRxdmhQ8266K5pwGPLs3x8I/2QuXMPTtDZLDked70PPitaut4Ku2fG7f6QYYDB/X0pSx8Gda3Yw==",
+  "dgSpecHash": "5Y2gMiQMm1jkBawwmL/JUQDK8KVh37nIV7UFUuIfoJK5Y7CE3MFOVL7c56yba59ERYqn3/+vOXjdJ4SACh4ibg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\polta\\OneDrive\\Рабочий стол\\furniture\\server\\TileShop.Application\\TileShop.Application.csproj",
+  "projectFilePath": "C:\\Users\\polta\\OneDrive\\Рабочий стол\\gittt\\furniture\\server\\TileShop.Application\\TileShop.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\polta\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\polta\\.nuget\\packages\\cloudinarydotnet\\1.26.2\\cloudinarydotnet.1.26.2.nupkg.sha512",

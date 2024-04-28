@@ -2,11 +2,11 @@ import React, { useContext, Fragment, useState, useEffect } from 'react';
 import { observer } from "mobx-react-lite";
 import { Context } from "../index";
 import { Dialog, Disclosure, Menu, Transition } from '@headlessui/react'
-import { XMarkIcon } from '@heroicons/react/24/outline'
 import { ChevronDownIcon, FunnelIcon, MinusIcon, PlusIcon, Squares2X2Icon } from '@heroicons/react/20/solid'
 import ProductList from './ProductList';
 import CreateCategory from "./modals/CreateCategory";
-import CreateProduct from "./modals/CreateProduct";
+import {useNavigate} from "react-router-dom";
+import {CREATE_PRODUCT_ROUTE} from "../utils/consts";
 
 
 function classNames(...classes) {
@@ -17,7 +17,7 @@ const TypeBar = observer(() => {
     const [mobileFiltersOpen, setMobileFiltersOpen] = useState(false);
     const { product, user } = useContext(Context);
     const [openCreateCategory, setOpenCreateCategory] = useState(false);
-    const [openCreateProduct, setOpenCreateProduct] = useState(false);
+    const navigate = useNavigate();
 
     const filters = [
         {
@@ -154,7 +154,7 @@ const TypeBar = observer(() => {
                                 ? <div className="ml-4 mb-4 space-y-4 flex items-center mt-5">
                                     <button
                                         type="button"
-                                        onClick={() => setOpenCreateProduct(true)}
+                                        onClick={() => navigate(CREATE_PRODUCT_ROUTE)}
                                         className="block inline-flex items-center rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                                     >
                                         <PlusIcon className="-ml-0.5 mr-1.5 h-5 w-5" />
@@ -253,7 +253,6 @@ const TypeBar = observer(() => {
                 </main>
             </div>
             <CreateCategory open={openCreateCategory} setOpen={setOpenCreateCategory}/>
-            <CreateProduct open={openCreateProduct} setOpen={setOpenCreateProduct}/>
         </div>
     );
 });

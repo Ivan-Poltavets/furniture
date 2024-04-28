@@ -3,7 +3,7 @@ import { Dialog, Transition } from '@headlessui/react'
 import { XMarkIcon } from '@heroicons/react/24/outline'
 import { Context } from '..';
 import { useNavigate } from 'react-router-dom';
-import {IMAGES_API_ROUTE, LOGIN_ROUTE, ORDERS_ROUTE} from '../utils/consts';
+import {LOGIN_ROUTE, ORDERS_ROUTE} from '../utils/consts';
 import {createBasket, doCheckout, fetchBasket, removeItemFromBasket} from '../http/userAPI';
 
 const Basket = ({open, setOpen}) => {
@@ -20,18 +20,16 @@ const Basket = ({open, setOpen}) => {
             return;
         }
         try{
-            createBasket()
-                .catch(err => {
-                    console.error(err);
-                });
             fetchBasket()
             .then(data =>{
                 user.setBasket(data);
+                user.setBasketTotal(calculateTotal(data));
                 setBasket(data);
                 setItems(data.items);
+                console.log(data);
             })
                 .finally(() => setLoading(false));
-                console.log(basket);
+                console.log(basket.items);
         }
         catch(e){
             alert(e);
@@ -49,15 +47,27 @@ const Basket = ({open, setOpen}) => {
         }
     }
 
+    const calculateTotal = (data) =>{
+        let total = 0;
+        data.items.forEach(item => {
+            total += item.quantity * item.product.price;
+        });
+        return total;
+    }
+
     const checkout = async () =>{
         try{
-            const data = await doCheckout();
-            console.log(data);
+            await doCheckout();
+            setItems({});
             navigate(ORDERS_ROUTE);
         }
         catch (e){
             console.error(e);
         }
+    }
+
+    if(loading){
+        return <div>Loading...</div>
     }
 
     return (
@@ -108,11 +118,12 @@ const Basket = ({open, setOpen}) => {
                                             <div className="mt-8">
                                                 <div className="flow-root">
                                                     <ul role="list" className="-my-6 divide-y divide-gray-200">
-                                                        {items.map((item) => (
+                                                        {items.length > 0 ?
+                                                        items.map((item) => (
                                                             <li key={item.id} className="flex py-6">
                                                                 <div className="h-24 w-24 flex-shrink-0 overflow-hidden rounded-md border border-gray-200">
                                                                     <img
-                                                                        src={IMAGES_API_ROUTE + item.product.imageUrl}
+                                                                        src={item.product.imageUrl}
                                                                         className="h-full w-full object-cover object-center"
                                                                     />
                                                                 </div>
@@ -141,7 +152,11 @@ const Basket = ({open, setOpen}) => {
                                                                     </div>
                                                                 </div>
                                                             </li>
-                                                        ))}
+                                                        ))
+                                                    : <div className='flex justify-center items-center'>
+                                                        <h2>No items</h2>
+                                                      </div>
+                                                    }
                                                     </ul>
                                                 </div>
                                             </div>
@@ -150,8 +165,8 @@ const Basket = ({open, setOpen}) => {
                                         <div className="border-t border-gray-200 px-4 py-6 sm:px-6">
                                             <div className="flex justify-between text-base font-medium text-gray-900">
                                                 <p>Subtotal</p>
-                                                <p>{basket.details != null ? 
-                                                basket.details.reduce((acc, item) => acc + (item.unitPrice * item.quantity))
+                                                <p>{basket.items != null ? 
+                                                user.basketTotal
                                                 : 0
                                             }</p>
                                             </div>

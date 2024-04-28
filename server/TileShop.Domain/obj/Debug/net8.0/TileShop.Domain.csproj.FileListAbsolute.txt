@@ -21,3 +21,15 @@ C:\Users\polta\OneDrive\Рабочий стол\furniture\server\TileShop.Domain
 C:\Users\polta\OneDrive\Рабочий стол\furniture\server\TileShop.Domain\obj\Debug\net8.0\refint\TileShop.Domain.dll
 C:\Users\polta\OneDrive\Рабочий стол\furniture\server\TileShop.Domain\obj\Debug\net8.0\TileShop.Domain.pdb
 C:\Users\polta\OneDrive\Рабочий стол\furniture\server\TileShop.Domain\obj\Debug\net8.0\ref\TileShop.Domain.dll
+C:\Users\polta\OneDrive\Рабочий стол\gittt\furniture\server\TileShop.Domain\bin\Debug\net8.0\TileShop.Domain.deps.json
+C:\Users\polta\OneDrive\Рабочий стол\gittt\furniture\server\TileShop.Domain\bin\Debug\net8.0\TileShop.Domain.dll
+C:\Users\polta\OneDrive\Рабочий стол\gittt\furniture\server\TileShop.Domain\bin\Debug\net8.0\TileShop.Domain.pdb
+C:\Users\polta\OneDrive\Рабочий стол\gittt\furniture\server\TileShop.Domain\obj\Debug\net8.0\TileShop.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\polta\OneDrive\Рабочий стол\gittt\furniture\server\TileShop.Domain\obj\Debug\net8.0\TileShop.Domain.AssemblyInfoInputs.cache
+C:\Users\polta\OneDrive\Рабочий стол\gittt\furniture\server\TileShop.Domain\obj\Debug\net8.0\TileShop.Domain.AssemblyInfo.cs
+C:\Users\polta\OneDrive\Рабочий стол\gittt\furniture\server\TileShop.Domain\obj\Debug\net8.0\TileShop.Domain.csproj.CoreCompileInputs.cache
+C:\Users\polta\OneDrive\Рабочий стол\gittt\furniture\server\TileShop.Domain\obj\Debug\net8.0\TileShop.Domain.sourcelink.json
+C:\Users\polta\OneDrive\Рабочий стол\gittt\furniture\server\TileShop.Domain\obj\Debug\net8.0\TileShop.Domain.dll
+C:\Users\polta\OneDrive\Рабочий стол\gittt\furniture\server\TileShop.Domain\obj\Debug\net8.0\refint\TileShop.Domain.dll
+C:\Users\polta\OneDrive\Рабочий стол\gittt\furniture\server\TileShop.Domain\obj\Debug\net8.0\TileShop.Domain.pdb
+C:\Users\polta\OneDrive\Рабочий стол\gittt\furniture\server\TileShop.Domain\obj\Debug\net8.0\ref\TileShop.Domain.dll

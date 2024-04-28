@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\polta\\OneDrive\\Рабочий стол\\furniture\\server\\TileShop.Infrastructure\\TileShop.Infrastructure.csproj": {}
+    "C:\\Users\\polta\\OneDrive\\Рабочий стол\\gittt\\furniture\\server\\TileShop.Infrastructure\\TileShop.Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\polta\\OneDrive\\Рабочий стол\\furniture\\server\\TileShop.Domain\\TileShop.Domain.csproj": {
+    "C:\\Users\\polta\\OneDrive\\Рабочий стол\\gittt\\furniture\\server\\TileShop.Domain\\TileShop.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\polta\\OneDrive\\Рабочий стол\\furniture\\server\\TileShop.Domain\\TileShop.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\polta\\OneDrive\\Рабочий стол\\gittt\\furniture\\server\\TileShop.Domain\\TileShop.Domain.csproj",
         "projectName": "TileShop.Domain",
-        "projectPath": "C:\\Users\\polta\\OneDrive\\Рабочий стол\\furniture\\server\\TileShop.Domain\\TileShop.Domain.csproj",
+        "projectPath": "C:\\Users\\polta\\OneDrive\\Рабочий стол\\gittt\\furniture\\server\\TileShop.Domain\\TileShop.Domain.csproj",
         "packagesPath": "C:\\Users\\polta\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\polta\\OneDrive\\Рабочий стол\\furniture\\server\\TileShop.Domain\\obj\\",
+        "outputPath": "C:\\Users\\polta\\OneDrive\\Рабочий стол\\gittt\\furniture\\server\\TileShop.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\polta\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -64,14 +64,14 @@
         }
       }
     },
-    "C:\\Users\\polta\\OneDrive\\Рабочий стол\\furniture\\server\\TileShop.Infrastructure\\TileShop.Infrastructure.csproj": {
+    "C:\\Users\\polta\\OneDrive\\Рабочий стол\\gittt\\furniture\\server\\TileShop.Infrastructure\\TileShop.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\polta\\OneDrive\\Рабочий стол\\furniture\\server\\TileShop.Infrastructure\\TileShop.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\polta\\OneDrive\\Рабочий стол\\gittt\\furniture\\server\\TileShop.Infrastructure\\TileShop.Infrastructure.csproj",
         "projectName": "TileShop.Infrastructure",
-        "projectPath": "C:\\Users\\polta\\OneDrive\\Рабочий стол\\furniture\\server\\TileShop.Infrastructure\\TileShop.Infrastructure.csproj",
+        "projectPath": "C:\\Users\\polta\\OneDrive\\Рабочий стол\\gittt\\furniture\\server\\TileShop.Infrastructure\\TileShop.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\polta\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\polta\\OneDrive\\Рабочий стол\\furniture\\server\\TileShop.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\polta\\OneDrive\\Рабочий стол\\gittt\\furniture\\server\\TileShop.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\polta\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -88,8 +88,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\polta\\OneDrive\\Рабочий стол\\furniture\\server\\TileShop.Domain\\TileShop.Domain.csproj": {
-                "projectPath": "C:\\Users\\polta\\OneDrive\\Рабочий стол\\furniture\\server\\TileShop.Domain\\TileShop.Domain.csproj"
+              "C:\\Users\\polta\\OneDrive\\Рабочий стол\\gittt\\furniture\\server\\TileShop.Domain\\TileShop.Domain.csproj": {
+                "projectPath": "C:\\Users\\polta\\OneDrive\\Рабочий стол\\gittt\\furniture\\server\\TileShop.Domain\\TileShop.Domain.csproj"
               }
             }
           }
@@ -113,13 +113,9 @@
               "target": "Package",
               "version": "[35.5.0, )"
             },
-            "Faker.Net": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[2.0.163, )"
-            },
-            "MySql.EntityFrameworkCore": {
-              "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[8.0.4, )"
             }
           },
           "imports": [

@@ -1,257 +1,301 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\",
+  "WorkspaceRootPath": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8E1F53EB-1618-412B-98E9-DDF9CF8D8FFD}|TileShop.API\\TileShop.API.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\tileshop.api\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8E1F53EB-1618-412B-98E9-DDF9CF8D8FFD}|TileShop.API\\TileShop.API.csproj|solutionrelative:tileshop.api\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8E1F53EB-1618-412B-98E9-DDF9CF8D8FFD}|TileShop.API\\TileShop.API.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\tileshop.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8E1F53EB-1618-412B-98E9-DDF9CF8D8FFD}|TileShop.API\\TileShop.API.csproj|solutionrelative:tileshop.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{408CCB18-73AF-4B10-9FB0-85E899395D51}|TileShop.Application\\TileShop.Application.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\tileshop.application\\services\\imageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{408CCB18-73AF-4B10-9FB0-85E899395D51}|TileShop.Application\\TileShop.Application.csproj|solutionrelative:tileshop.application\\services\\imageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88AA96CE-4FE7-463D-A50B-2D7F26EE780F}|TileShop.Domain\\TileShop.Domain.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\tileshop.domain\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88AA96CE-4FE7-463D-A50B-2D7F26EE780F}|TileShop.Domain\\TileShop.Domain.csproj|solutionrelative:tileshop.domain\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88AA96CE-4FE7-463D-A50B-2D7F26EE780F}|TileShop.Domain\\TileShop.Domain.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\tileshop.domain\\entities\\orderdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88AA96CE-4FE7-463D-A50B-2D7F26EE780F}|TileShop.Domain\\TileShop.Domain.csproj|solutionrelative:tileshop.domain\\entities\\orderdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8E1F53EB-1618-412B-98E9-DDF9CF8D8FFD}|TileShop.API\\TileShop.API.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\tileshop.api\\controllers\\imagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8E1F53EB-1618-412B-98E9-DDF9CF8D8FFD}|TileShop.API\\TileShop.API.csproj|solutionrelative:tileshop.api\\controllers\\imagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{59ED0B86-4FD7-44E8-B939-6A1263427293}|TileShop.Infrastructure\\TileShop.Infrastructure.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\tileshop.infrastructure\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{59ED0B86-4FD7-44E8-B939-6A1263427293}|TileShop.Infrastructure\\TileShop.Infrastructure.csproj|solutionrelative:tileshop.infrastructure\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8E1F53EB-1618-412B-98E9-DDF9CF8D8FFD}|TileShop.API\\TileShop.API.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\tileshop.api\\configureservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8E1F53EB-1618-412B-98E9-DDF9CF8D8FFD}|TileShop.API\\TileShop.API.csproj|solutionrelative:tileshop.api\\configureservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{408CCB18-73AF-4B10-9FB0-85E899395D51}|TileShop.Application\\TileShop.Application.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\tileshop.application\\services\\interfaces\\iimageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{408CCB18-73AF-4B10-9FB0-85E899395D51}|TileShop.Application\\TileShop.Application.csproj|solutionrelative:tileshop.application\\services\\interfaces\\iimageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{408CCB18-73AF-4B10-9FB0-85E899395D51}|TileShop.Application\\TileShop.Application.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\tileshop.application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{408CCB18-73AF-4B10-9FB0-85E899395D51}|TileShop.Application\\TileShop.Application.csproj|solutionrelative:tileshop.application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{408CCB18-73AF-4B10-9FB0-85E899395D51}|TileShop.Application\\TileShop.Application.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\tileshop.application\\settings\\cloudinarysettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{408CCB18-73AF-4B10-9FB0-85E899395D51}|TileShop.Application\\TileShop.Application.csproj|solutionrelative:tileshop.application\\settings\\cloudinarysettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8E1F53EB-1618-412B-98E9-DDF9CF8D8FFD}|TileShop.API\\TileShop.API.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\tileshop.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{8E1F53EB-1618-412B-98E9-DDF9CF8D8FFD}|TileShop.API\\TileShop.API.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\tileshop.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{8E1F53EB-1618-412B-98E9-DDF9CF8D8FFD}|TileShop.API\\TileShop.API.csproj|solutionrelative:tileshop.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8E1F53EB-1618-412B-98E9-DDF9CF8D8FFD}|TileShop.API\\TileShop.API.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\tileshop.api\\products\\requests\\createproductrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8E1F53EB-1618-412B-98E9-DDF9CF8D8FFD}|TileShop.API\\TileShop.API.csproj|solutionrelative:tileshop.api\\products\\requests\\createproductrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8E1F53EB-1618-412B-98E9-DDF9CF8D8FFD}|TileShop.API\\TileShop.API.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\tileshop.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E1F53EB-1618-412B-98E9-DDF9CF8D8FFD}|TileShop.API\\TileShop.API.csproj|solutionrelative:tileshop.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8E1F53EB-1618-412B-98E9-DDF9CF8D8FFD}|TileShop.API\\TileShop.API.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\tileshop.api\\products\\requests\\updateproductrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8E1F53EB-1618-412B-98E9-DDF9CF8D8FFD}|TileShop.API\\TileShop.API.csproj|solutionrelative:tileshop.api\\products\\requests\\updateproductrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{59ED0B86-4FD7-44E8-B939-6A1263427293}|TileShop.Infrastructure\\TileShop.Infrastructure.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\tileshop.infrastructure\\repositories\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{59ED0B86-4FD7-44E8-B939-6A1263427293}|TileShop.Infrastructure\\TileShop.Infrastructure.csproj|solutionrelative:tileshop.infrastructure\\repositories\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{408CCB18-73AF-4B10-9FB0-85E899395D51}|TileShop.Application\\TileShop.Application.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\tileshop.application\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{408CCB18-73AF-4B10-9FB0-85E899395D51}|TileShop.Application\\TileShop.Application.csproj|solutionrelative:tileshop.application\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88AA96CE-4FE7-463D-A50B-2D7F26EE780F}|TileShop.Domain\\TileShop.Domain.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\tileshop.domain\\repositories\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88AA96CE-4FE7-463D-A50B-2D7F26EE780F}|TileShop.Domain\\TileShop.Domain.csproj|solutionrelative:tileshop.domain\\repositories\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88AA96CE-4FE7-463D-A50B-2D7F26EE780F}|TileShop.Domain\\TileShop.Domain.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\tileshop.domain\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88AA96CE-4FE7-463D-A50B-2D7F26EE780F}|TileShop.Domain\\TileShop.Domain.csproj|solutionrelative:tileshop.domain\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88AA96CE-4FE7-463D-A50B-2D7F26EE780F}|TileShop.Domain\\TileShop.Domain.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\tileshop.domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88AA96CE-4FE7-463D-A50B-2D7F26EE780F}|TileShop.Domain\\TileShop.Domain.csproj|solutionrelative:tileshop.domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{408CCB18-73AF-4B10-9FB0-85E899395D51}|TileShop.Application\\TileShop.Application.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\tileshop.application\\profiles\\producttodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{408CCB18-73AF-4B10-9FB0-85E899395D51}|TileShop.Application\\TileShop.Application.csproj|solutionrelative:tileshop.application\\profiles\\producttodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88AA96CE-4FE7-463D-A50B-2D7F26EE780F}|TileShop.Domain\\TileShop.Domain.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\tileshop.domain\\dtos\\orderdetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88AA96CE-4FE7-463D-A50B-2D7F26EE780F}|TileShop.Domain\\TileShop.Domain.csproj|solutionrelative:tileshop.domain\\dtos\\orderdetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88AA96CE-4FE7-463D-A50B-2D7F26EE780F}|TileShop.Domain\\TileShop.Domain.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\tileshop.domain\\dtos\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88AA96CE-4FE7-463D-A50B-2D7F26EE780F}|TileShop.Domain\\TileShop.Domain.csproj|solutionrelative:tileshop.domain\\dtos\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88AA96CE-4FE7-463D-A50B-2D7F26EE780F}|TileShop.Domain\\TileShop.Domain.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\tileshop.domain\\dtos\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88AA96CE-4FE7-463D-A50B-2D7F26EE780F}|TileShop.Domain\\TileShop.Domain.csproj|solutionrelative:tileshop.domain\\dtos\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88AA96CE-4FE7-463D-A50B-2D7F26EE780F}|TileShop.Domain\\TileShop.Domain.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\tileshop.domain\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88AA96CE-4FE7-463D-A50B-2D7F26EE780F}|TileShop.Domain\\TileShop.Domain.csproj|solutionrelative:tileshop.domain\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88AA96CE-4FE7-463D-A50B-2D7F26EE780F}|TileShop.Domain\\TileShop.Domain.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\tileshop.domain\\dtos\\reviewdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88AA96CE-4FE7-463D-A50B-2D7F26EE780F}|TileShop.Domain\\TileShop.Domain.csproj|solutionrelative:tileshop.domain\\dtos\\reviewdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88AA96CE-4FE7-463D-A50B-2D7F26EE780F}|TileShop.Domain\\TileShop.Domain.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\tileshop.domain\\dtos\\ratingdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88AA96CE-4FE7-463D-A50B-2D7F26EE780F}|TileShop.Domain\\TileShop.Domain.csproj|solutionrelative:tileshop.domain\\dtos\\ratingdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88AA96CE-4FE7-463D-A50B-2D7F26EE780F}|TileShop.Domain\\TileShop.Domain.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\tileshop.domain\\entities\\basket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88AA96CE-4FE7-463D-A50B-2D7F26EE780F}|TileShop.Domain\\TileShop.Domain.csproj|solutionrelative:tileshop.domain\\entities\\basket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8E1F53EB-1618-412B-98E9-DDF9CF8D8FFD}|TileShop.API\\TileShop.API.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\tileshop.api\\categories\\requests\\updatecategoryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8E1F53EB-1618-412B-98E9-DDF9CF8D8FFD}|TileShop.API\\TileShop.API.csproj|solutionrelative:tileshop.api\\categories\\requests\\updatecategoryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8E1F53EB-1618-412B-98E9-DDF9CF8D8FFD}|TileShop.API\\TileShop.API.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\tileshop.api\\categories\\requests\\createcategoryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8E1F53EB-1618-412B-98E9-DDF9CF8D8FFD}|TileShop.API\\TileShop.API.csproj|solutionrelative:tileshop.api\\categories\\requests\\createcategoryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{408CCB18-73AF-4B10-9FB0-85E899395D51}|TileShop.Application\\TileShop.Application.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\tileshop.application\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{408CCB18-73AF-4B10-9FB0-85E899395D51}|TileShop.Application\\TileShop.Application.csproj|solutionrelative:tileshop.application\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{59ED0B86-4FD7-44E8-B939-6A1263427293}|TileShop.Infrastructure\\TileShop.Infrastructure.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\tileshop.infrastructure\\repositories\\orderdetailsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{59ED0B86-4FD7-44E8-B939-6A1263427293}|TileShop.Infrastructure\\TileShop.Infrastructure.csproj|solutionrelative:tileshop.infrastructure\\repositories\\orderdetailsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8E1F53EB-1618-412B-98E9-DDF9CF8D8FFD}|TileShop.API\\TileShop.API.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\tileshop.api\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8E1F53EB-1618-412B-98E9-DDF9CF8D8FFD}|TileShop.API\\TileShop.API.csproj|solutionrelative:tileshop.api\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{408CCB18-73AF-4B10-9FB0-85E899395D51}|TileShop.Application\\TileShop.Application.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\tileshop.application\\services\\basketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{408CCB18-73AF-4B10-9FB0-85E899395D51}|TileShop.Application\\TileShop.Application.csproj|solutionrelative:tileshop.application\\services\\basketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8E1F53EB-1618-412B-98E9-DDF9CF8D8FFD}|TileShop.API\\TileShop.API.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\tileshop.api\\controllers\\basketscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8E1F53EB-1618-412B-98E9-DDF9CF8D8FFD}|TileShop.API\\TileShop.API.csproj|solutionrelative:tileshop.api\\controllers\\basketscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88AA96CE-4FE7-463D-A50B-2D7F26EE780F}|TileShop.Domain\\TileShop.Domain.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\tileshop.domain\\repositories\\ibasketdetailsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88AA96CE-4FE7-463D-A50B-2D7F26EE780F}|TileShop.Domain\\TileShop.Domain.csproj|solutionrelative:tileshop.domain\\repositories\\ibasketdetailsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{59ED0B86-4FD7-44E8-B939-6A1263427293}|TileShop.Infrastructure\\TileShop.Infrastructure.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\tileshop.infrastructure\\repositories\\basketdetailsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{59ED0B86-4FD7-44E8-B939-6A1263427293}|TileShop.Infrastructure\\TileShop.Infrastructure.csproj|solutionrelative:tileshop.infrastructure\\repositories\\basketdetailsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{59ED0B86-4FD7-44E8-B939-6A1263427293}|TileShop.Infrastructure\\TileShop.Infrastructure.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\tileshop.infrastructure\\repositories\\basketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{59ED0B86-4FD7-44E8-B939-6A1263427293}|TileShop.Infrastructure\\TileShop.Infrastructure.csproj|solutionrelative:tileshop.infrastructure\\repositories\\basketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8E1F53EB-1618-412B-98E9-DDF9CF8D8FFD}|TileShop.API\\TileShop.API.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\tileshop.api\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8E1F53EB-1618-412B-98E9-DDF9CF8D8FFD}|TileShop.API\\TileShop.API.csproj|solutionrelative:tileshop.api\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8E1F53EB-1618-412B-98E9-DDF9CF8D8FFD}|TileShop.API\\TileShop.API.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\tileshop.api\\authentication\\responses\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8E1F53EB-1618-412B-98E9-DDF9CF8D8FFD}|TileShop.API\\TileShop.API.csproj|solutionrelative:tileshop.api\\authentication\\responses\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8E1F53EB-1618-412B-98E9-DDF9CF8D8FFD}|TileShop.API\\TileShop.API.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\tileshop.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8E1F53EB-1618-412B-98E9-DDF9CF8D8FFD}|TileShop.API\\TileShop.API.csproj|solutionrelative:tileshop.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8E1F53EB-1618-412B-98E9-DDF9CF8D8FFD}|TileShop.API\\TileShop.API.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\tileshop.api\\users\\requests\\createuserrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8E1F53EB-1618-412B-98E9-DDF9CF8D8FFD}|TileShop.API\\TileShop.API.csproj|solutionrelative:tileshop.api\\users\\requests\\createuserrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88AA96CE-4FE7-463D-A50B-2D7F26EE780F}|TileShop.Domain\\TileShop.Domain.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\tileshop.domain\\entities\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88AA96CE-4FE7-463D-A50B-2D7F26EE780F}|TileShop.Domain\\TileShop.Domain.csproj|solutionrelative:tileshop.domain\\entities\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{59ED0B86-4FD7-44E8-B939-6A1263427293}|TileShop.Infrastructure\\TileShop.Infrastructure.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\tileshop.infrastructure\\databaseseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{59ED0B86-4FD7-44E8-B939-6A1263427293}|TileShop.Infrastructure\\TileShop.Infrastructure.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\tileshop.infrastructure\\databaseseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{59ED0B86-4FD7-44E8-B939-6A1263427293}|TileShop.Infrastructure\\TileShop.Infrastructure.csproj|solutionrelative:tileshop.infrastructure\\databaseseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{88AA96CE-4FE7-463D-A50B-2D7F26EE780F}|TileShop.Domain\\TileShop.Domain.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\tileshop.domain\\entities\\feature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88AA96CE-4FE7-463D-A50B-2D7F26EE780F}|TileShop.Domain\\TileShop.Domain.csproj|solutionrelative:tileshop.domain\\entities\\feature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8E1F53EB-1618-412B-98E9-DDF9CF8D8FFD}|TileShop.API\\TileShop.API.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\tileshop.api\\configureservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E1F53EB-1618-412B-98E9-DDF9CF8D8FFD}|TileShop.API\\TileShop.API.csproj|solutionrelative:tileshop.api\\configureservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{88AA96CE-4FE7-463D-A50B-2D7F26EE780F}|TileShop.Domain\\TileShop.Domain.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\tileshop.domain\\entities\\featurevalue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88AA96CE-4FE7-463D-A50B-2D7F26EE780F}|TileShop.Domain\\TileShop.Domain.csproj|solutionrelative:tileshop.domain\\entities\\featurevalue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88AA96CE-4FE7-463D-A50B-2D7F26EE780F}|TileShop.Domain\\TileShop.Domain.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\tileshop.domain\\entities\\rating.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88AA96CE-4FE7-463D-A50B-2D7F26EE780F}|TileShop.Domain\\TileShop.Domain.csproj|solutionrelative:tileshop.domain\\entities\\rating.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{59ED0B86-4FD7-44E8-B939-6A1263427293}|TileShop.Infrastructure\\TileShop.Infrastructure.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\tileshop.infrastructure\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{59ED0B86-4FD7-44E8-B939-6A1263427293}|TileShop.Infrastructure\\TileShop.Infrastructure.csproj|solutionrelative:tileshop.infrastructure\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8E1F53EB-1618-412B-98E9-DDF9CF8D8FFD}|TileShop.API\\TileShop.API.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\tileshop.api\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8E1F53EB-1618-412B-98E9-DDF9CF8D8FFD}|TileShop.API\\TileShop.API.csproj|solutionrelative:tileshop.api\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8E1F53EB-1618-412B-98E9-DDF9CF8D8FFD}|TileShop.API\\TileShop.API.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\tileshop.api\\controllers\\ratingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8E1F53EB-1618-412B-98E9-DDF9CF8D8FFD}|TileShop.API\\TileShop.API.csproj|solutionrelative:tileshop.api\\controllers\\ratingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8E1F53EB-1618-412B-98E9-DDF9CF8D8FFD}|TileShop.API\\TileShop.API.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\tileshop.api\\controllers\\reviewscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8E1F53EB-1618-412B-98E9-DDF9CF8D8FFD}|TileShop.API\\TileShop.API.csproj|solutionrelative:tileshop.api\\controllers\\reviewscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{408CCB18-73AF-4B10-9FB0-85E899395D51}|TileShop.Application\\TileShop.Application.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\tileshop.application\\services\\ratingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{408CCB18-73AF-4B10-9FB0-85E899395D51}|TileShop.Application\\TileShop.Application.csproj|solutionrelative:tileshop.application\\services\\ratingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{408CCB18-73AF-4B10-9FB0-85E899395D51}|TileShop.Application\\TileShop.Application.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\tileshop.application\\services\\interfaces\\iratingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{408CCB18-73AF-4B10-9FB0-85E899395D51}|TileShop.Application\\TileShop.Application.csproj|solutionrelative:tileshop.application\\services\\interfaces\\iratingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{408CCB18-73AF-4B10-9FB0-85E899395D51}|TileShop.Application\\TileShop.Application.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\tileshop.application\\services\\reviewservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{408CCB18-73AF-4B10-9FB0-85E899395D51}|TileShop.Application\\TileShop.Application.csproj|solutionrelative:tileshop.application\\services\\reviewservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{408CCB18-73AF-4B10-9FB0-85E899395D51}|TileShop.Application\\TileShop.Application.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\tileshop.application\\profiles\\ratingtodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{408CCB18-73AF-4B10-9FB0-85E899395D51}|TileShop.Application\\TileShop.Application.csproj|solutionrelative:tileshop.application\\profiles\\ratingtodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{59ED0B86-4FD7-44E8-B939-6A1263427293}|TileShop.Infrastructure\\TileShop.Infrastructure.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\tileshop.infrastructure\\repositories\\ratingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{59ED0B86-4FD7-44E8-B939-6A1263427293}|TileShop.Infrastructure\\TileShop.Infrastructure.csproj|solutionrelative:tileshop.infrastructure\\repositories\\ratingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88AA96CE-4FE7-463D-A50B-2D7F26EE780F}|TileShop.Domain\\TileShop.Domain.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\tileshop.domain\\repositories\\iratingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88AA96CE-4FE7-463D-A50B-2D7F26EE780F}|TileShop.Domain\\TileShop.Domain.csproj|solutionrelative:tileshop.domain\\repositories\\iratingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8E1F53EB-1618-412B-98E9-DDF9CF8D8FFD}|TileShop.API\\TileShop.API.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\tileshop.api\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8E1F53EB-1618-412B-98E9-DDF9CF8D8FFD}|TileShop.API\\TileShop.API.csproj|solutionrelative:tileshop.api\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{408CCB18-73AF-4B10-9FB0-85E899395D51}|TileShop.Application\\TileShop.Application.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\tileshop.application\\tileshop.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{408CCB18-73AF-4B10-9FB0-85E899395D51}|TileShop.Application\\TileShop.Application.csproj|solutionrelative:tileshop.application\\tileshop.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88AA96CE-4FE7-463D-A50B-2D7F26EE780F}|TileShop.Domain\\TileShop.Domain.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\tileshop.domain\\entities\\basketdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88AA96CE-4FE7-463D-A50B-2D7F26EE780F}|TileShop.Domain\\TileShop.Domain.csproj|solutionrelative:tileshop.domain\\entities\\basketdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{59ED0B86-4FD7-44E8-B939-6A1263427293}|TileShop.Infrastructure\\TileShop.Infrastructure.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\tileshop.infrastructure\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{59ED0B86-4FD7-44E8-B939-6A1263427293}|TileShop.Infrastructure\\TileShop.Infrastructure.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\tileshop.infrastructure\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{59ED0B86-4FD7-44E8-B939-6A1263427293}|TileShop.Infrastructure\\TileShop.Infrastructure.csproj|solutionrelative:tileshop.infrastructure\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8E1F53EB-1618-412B-98E9-DDF9CF8D8FFD}|TileShop.API\\TileShop.API.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\tileshop.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{59ED0B86-4FD7-44E8-B939-6A1263427293}|TileShop.Infrastructure\\TileShop.Infrastructure.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\tileshop.infrastructure\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59ED0B86-4FD7-44E8-B939-6A1263427293}|TileShop.Infrastructure\\TileShop.Infrastructure.csproj|solutionrelative:tileshop.infrastructure\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59ED0B86-4FD7-44E8-B939-6A1263427293}|TileShop.Infrastructure\\TileShop.Infrastructure.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\tileshop.infrastructure\\repositories\\basketdetailsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59ED0B86-4FD7-44E8-B939-6A1263427293}|TileShop.Infrastructure\\TileShop.Infrastructure.csproj|solutionrelative:tileshop.infrastructure\\repositories\\basketdetailsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{408CCB18-73AF-4B10-9FB0-85E899395D51}|TileShop.Application\\TileShop.Application.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\tileshop.application\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{408CCB18-73AF-4B10-9FB0-85E899395D51}|TileShop.Application\\TileShop.Application.csproj|solutionrelative:tileshop.application\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E1F53EB-1618-412B-98E9-DDF9CF8D8FFD}|TileShop.API\\TileShop.API.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\tileshop.api\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E1F53EB-1618-412B-98E9-DDF9CF8D8FFD}|TileShop.API\\TileShop.API.csproj|solutionrelative:tileshop.api\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88AA96CE-4FE7-463D-A50B-2D7F26EE780F}|TileShop.Domain\\TileShop.Domain.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\tileshop.domain\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88AA96CE-4FE7-463D-A50B-2D7F26EE780F}|TileShop.Domain\\TileShop.Domain.csproj|solutionrelative:tileshop.domain\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88AA96CE-4FE7-463D-A50B-2D7F26EE780F}|TileShop.Domain\\TileShop.Domain.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\tileshop.domain\\dtos\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88AA96CE-4FE7-463D-A50B-2D7F26EE780F}|TileShop.Domain\\TileShop.Domain.csproj|solutionrelative:tileshop.domain\\dtos\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88AA96CE-4FE7-463D-A50B-2D7F26EE780F}|TileShop.Domain\\TileShop.Domain.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\tileshop.domain\\dtos\\orderdetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88AA96CE-4FE7-463D-A50B-2D7F26EE780F}|TileShop.Domain\\TileShop.Domain.csproj|solutionrelative:tileshop.domain\\dtos\\orderdetailsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88AA96CE-4FE7-463D-A50B-2D7F26EE780F}|TileShop.Domain\\TileShop.Domain.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\tileshop.domain\\dtos\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88AA96CE-4FE7-463D-A50B-2D7F26EE780F}|TileShop.Domain\\TileShop.Domain.csproj|solutionrelative:tileshop.domain\\dtos\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{408CCB18-73AF-4B10-9FB0-85E899395D51}|TileShop.Application\\TileShop.Application.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\tileshop.application\\services\\interfaces\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{408CCB18-73AF-4B10-9FB0-85E899395D51}|TileShop.Application\\TileShop.Application.csproj|solutionrelative:tileshop.application\\services\\interfaces\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E1F53EB-1618-412B-98E9-DDF9CF8D8FFD}|TileShop.API\\TileShop.API.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\tileshop.api\\profiles\\dtotoorderresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E1F53EB-1618-412B-98E9-DDF9CF8D8FFD}|TileShop.API\\TileShop.API.csproj|solutionrelative:tileshop.api\\profiles\\dtotoorderresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E1F53EB-1618-412B-98E9-DDF9CF8D8FFD}|TileShop.API\\TileShop.API.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\tileshop.api\\profiles\\dtotoorderdetailsresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E1F53EB-1618-412B-98E9-DDF9CF8D8FFD}|TileShop.API\\TileShop.API.csproj|solutionrelative:tileshop.api\\profiles\\dtotoorderdetailsresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E1F53EB-1618-412B-98E9-DDF9CF8D8FFD}|TileShop.API\\TileShop.API.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\tileshop.api\\profiles\\dtotoproductresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E1F53EB-1618-412B-98E9-DDF9CF8D8FFD}|TileShop.API\\TileShop.API.csproj|solutionrelative:tileshop.api\\profiles\\dtotoproductresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E1F53EB-1618-412B-98E9-DDF9CF8D8FFD}|TileShop.API\\TileShop.API.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\tileshop.api\\profiles\\dtotocategoryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E1F53EB-1618-412B-98E9-DDF9CF8D8FFD}|TileShop.API\\TileShop.API.csproj|solutionrelative:tileshop.api\\profiles\\dtotocategoryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E1F53EB-1618-412B-98E9-DDF9CF8D8FFD}|TileShop.API\\TileShop.API.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\tileshop.api\\products\\responses\\productresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E1F53EB-1618-412B-98E9-DDF9CF8D8FFD}|TileShop.API\\TileShop.API.csproj|solutionrelative:tileshop.api\\products\\responses\\productresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E1F53EB-1618-412B-98E9-DDF9CF8D8FFD}|TileShop.API\\TileShop.API.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\tileshop.api\\order\\responses\\orderdetailsresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E1F53EB-1618-412B-98E9-DDF9CF8D8FFD}|TileShop.API\\TileShop.API.csproj|solutionrelative:tileshop.api\\order\\responses\\orderdetailsresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E1F53EB-1618-412B-98E9-DDF9CF8D8FFD}|TileShop.API\\TileShop.API.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\tileshop.api\\order\\responses\\orderresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E1F53EB-1618-412B-98E9-DDF9CF8D8FFD}|TileShop.API\\TileShop.API.csproj|solutionrelative:tileshop.api\\order\\responses\\orderresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E1F53EB-1618-412B-98E9-DDF9CF8D8FFD}|TileShop.API\\TileShop.API.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\tileshop.api\\categories\\responses\\categoryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E1F53EB-1618-412B-98E9-DDF9CF8D8FFD}|TileShop.API\\TileShop.API.csproj|solutionrelative:tileshop.api\\categories\\responses\\categoryresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88AA96CE-4FE7-463D-A50B-2D7F26EE780F}|TileShop.Domain\\TileShop.Domain.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\tileshop.domain\\repositories\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88AA96CE-4FE7-463D-A50B-2D7F26EE780F}|TileShop.Domain\\TileShop.Domain.csproj|solutionrelative:tileshop.domain\\repositories\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{408CCB18-73AF-4B10-9FB0-85E899395D51}|TileShop.Application\\TileShop.Application.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\tileshop.application\\settings\\cloudinarysettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{408CCB18-73AF-4B10-9FB0-85E899395D51}|TileShop.Application\\TileShop.Application.csproj|solutionrelative:tileshop.application\\settings\\cloudinarysettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E1F53EB-1618-412B-98E9-DDF9CF8D8FFD}|TileShop.API\\TileShop.API.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\tileshop.api\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E1F53EB-1618-412B-98E9-DDF9CF8D8FFD}|TileShop.API\\TileShop.API.csproj|solutionrelative:tileshop.api\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E1F53EB-1618-412B-98E9-DDF9CF8D8FFD}|TileShop.API\\TileShop.API.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\tileshop.api\\products\\requests\\createproductrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E1F53EB-1618-412B-98E9-DDF9CF8D8FFD}|TileShop.API\\TileShop.API.csproj|solutionrelative:tileshop.api\\products\\requests\\createproductrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{408CCB18-73AF-4B10-9FB0-85E899395D51}|TileShop.Application\\TileShop.Application.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\tileshop.application\\services\\imageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{408CCB18-73AF-4B10-9FB0-85E899395D51}|TileShop.Application\\TileShop.Application.csproj|solutionrelative:tileshop.application\\services\\imageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88AA96CE-4FE7-463D-A50B-2D7F26EE780F}|TileShop.Domain\\TileShop.Domain.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\tileshop.domain\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88AA96CE-4FE7-463D-A50B-2D7F26EE780F}|TileShop.Domain\\TileShop.Domain.csproj|solutionrelative:tileshop.domain\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88AA96CE-4FE7-463D-A50B-2D7F26EE780F}|TileShop.Domain\\TileShop.Domain.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\tileshop.domain\\entities\\orderdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88AA96CE-4FE7-463D-A50B-2D7F26EE780F}|TileShop.Domain\\TileShop.Domain.csproj|solutionrelative:tileshop.domain\\entities\\orderdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E1F53EB-1618-412B-98E9-DDF9CF8D8FFD}|TileShop.API\\TileShop.API.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\tileshop.api\\controllers\\imagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E1F53EB-1618-412B-98E9-DDF9CF8D8FFD}|TileShop.API\\TileShop.API.csproj|solutionrelative:tileshop.api\\controllers\\imagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59ED0B86-4FD7-44E8-B939-6A1263427293}|TileShop.Infrastructure\\TileShop.Infrastructure.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\tileshop.infrastructure\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59ED0B86-4FD7-44E8-B939-6A1263427293}|TileShop.Infrastructure\\TileShop.Infrastructure.csproj|solutionrelative:tileshop.infrastructure\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{408CCB18-73AF-4B10-9FB0-85E899395D51}|TileShop.Application\\TileShop.Application.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\tileshop.application\\services\\interfaces\\iimageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{408CCB18-73AF-4B10-9FB0-85E899395D51}|TileShop.Application\\TileShop.Application.csproj|solutionrelative:tileshop.application\\services\\interfaces\\iimageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{408CCB18-73AF-4B10-9FB0-85E899395D51}|TileShop.Application\\TileShop.Application.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\tileshop.application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{408CCB18-73AF-4B10-9FB0-85E899395D51}|TileShop.Application\\TileShop.Application.csproj|solutionrelative:tileshop.application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E1F53EB-1618-412B-98E9-DDF9CF8D8FFD}|TileShop.API\\TileShop.API.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\tileshop.api\\products\\requests\\updateproductrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E1F53EB-1618-412B-98E9-DDF9CF8D8FFD}|TileShop.API\\TileShop.API.csproj|solutionrelative:tileshop.api\\products\\requests\\updateproductrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59ED0B86-4FD7-44E8-B939-6A1263427293}|TileShop.Infrastructure\\TileShop.Infrastructure.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\tileshop.infrastructure\\repositories\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59ED0B86-4FD7-44E8-B939-6A1263427293}|TileShop.Infrastructure\\TileShop.Infrastructure.csproj|solutionrelative:tileshop.infrastructure\\repositories\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{408CCB18-73AF-4B10-9FB0-85E899395D51}|TileShop.Application\\TileShop.Application.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\tileshop.application\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{408CCB18-73AF-4B10-9FB0-85E899395D51}|TileShop.Application\\TileShop.Application.csproj|solutionrelative:tileshop.application\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88AA96CE-4FE7-463D-A50B-2D7F26EE780F}|TileShop.Domain\\TileShop.Domain.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\tileshop.domain\\repositories\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88AA96CE-4FE7-463D-A50B-2D7F26EE780F}|TileShop.Domain\\TileShop.Domain.csproj|solutionrelative:tileshop.domain\\repositories\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88AA96CE-4FE7-463D-A50B-2D7F26EE780F}|TileShop.Domain\\TileShop.Domain.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\tileshop.domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88AA96CE-4FE7-463D-A50B-2D7F26EE780F}|TileShop.Domain\\TileShop.Domain.csproj|solutionrelative:tileshop.domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{408CCB18-73AF-4B10-9FB0-85E899395D51}|TileShop.Application\\TileShop.Application.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\tileshop.application\\profiles\\producttodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{408CCB18-73AF-4B10-9FB0-85E899395D51}|TileShop.Application\\TileShop.Application.csproj|solutionrelative:tileshop.application\\profiles\\producttodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88AA96CE-4FE7-463D-A50B-2D7F26EE780F}|TileShop.Domain\\TileShop.Domain.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\tileshop.domain\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88AA96CE-4FE7-463D-A50B-2D7F26EE780F}|TileShop.Domain\\TileShop.Domain.csproj|solutionrelative:tileshop.domain\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88AA96CE-4FE7-463D-A50B-2D7F26EE780F}|TileShop.Domain\\TileShop.Domain.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\tileshop.domain\\dtos\\reviewdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88AA96CE-4FE7-463D-A50B-2D7F26EE780F}|TileShop.Domain\\TileShop.Domain.csproj|solutionrelative:tileshop.domain\\dtos\\reviewdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88AA96CE-4FE7-463D-A50B-2D7F26EE780F}|TileShop.Domain\\TileShop.Domain.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\tileshop.domain\\dtos\\ratingdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88AA96CE-4FE7-463D-A50B-2D7F26EE780F}|TileShop.Domain\\TileShop.Domain.csproj|solutionrelative:tileshop.domain\\dtos\\ratingdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88AA96CE-4FE7-463D-A50B-2D7F26EE780F}|TileShop.Domain\\TileShop.Domain.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\tileshop.domain\\entities\\basket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88AA96CE-4FE7-463D-A50B-2D7F26EE780F}|TileShop.Domain\\TileShop.Domain.csproj|solutionrelative:tileshop.domain\\entities\\basket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E1F53EB-1618-412B-98E9-DDF9CF8D8FFD}|TileShop.API\\TileShop.API.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\tileshop.api\\categories\\requests\\updatecategoryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E1F53EB-1618-412B-98E9-DDF9CF8D8FFD}|TileShop.API\\TileShop.API.csproj|solutionrelative:tileshop.api\\categories\\requests\\updatecategoryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E1F53EB-1618-412B-98E9-DDF9CF8D8FFD}|TileShop.API\\TileShop.API.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\tileshop.api\\categories\\requests\\createcategoryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E1F53EB-1618-412B-98E9-DDF9CF8D8FFD}|TileShop.API\\TileShop.API.csproj|solutionrelative:tileshop.api\\categories\\requests\\createcategoryrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59ED0B86-4FD7-44E8-B939-6A1263427293}|TileShop.Infrastructure\\TileShop.Infrastructure.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\tileshop.infrastructure\\repositories\\orderdetailsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59ED0B86-4FD7-44E8-B939-6A1263427293}|TileShop.Infrastructure\\TileShop.Infrastructure.csproj|solutionrelative:tileshop.infrastructure\\repositories\\orderdetailsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{408CCB18-73AF-4B10-9FB0-85E899395D51}|TileShop.Application\\TileShop.Application.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\tileshop.application\\services\\basketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{408CCB18-73AF-4B10-9FB0-85E899395D51}|TileShop.Application\\TileShop.Application.csproj|solutionrelative:tileshop.application\\services\\basketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E1F53EB-1618-412B-98E9-DDF9CF8D8FFD}|TileShop.API\\TileShop.API.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\tileshop.api\\controllers\\basketscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E1F53EB-1618-412B-98E9-DDF9CF8D8FFD}|TileShop.API\\TileShop.API.csproj|solutionrelative:tileshop.api\\controllers\\basketscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88AA96CE-4FE7-463D-A50B-2D7F26EE780F}|TileShop.Domain\\TileShop.Domain.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\tileshop.domain\\repositories\\ibasketdetailsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88AA96CE-4FE7-463D-A50B-2D7F26EE780F}|TileShop.Domain\\TileShop.Domain.csproj|solutionrelative:tileshop.domain\\repositories\\ibasketdetailsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59ED0B86-4FD7-44E8-B939-6A1263427293}|TileShop.Infrastructure\\TileShop.Infrastructure.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\tileshop.infrastructure\\repositories\\basketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59ED0B86-4FD7-44E8-B939-6A1263427293}|TileShop.Infrastructure\\TileShop.Infrastructure.csproj|solutionrelative:tileshop.infrastructure\\repositories\\basketrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E1F53EB-1618-412B-98E9-DDF9CF8D8FFD}|TileShop.API\\TileShop.API.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\tileshop.api\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E1F53EB-1618-412B-98E9-DDF9CF8D8FFD}|TileShop.API\\TileShop.API.csproj|solutionrelative:tileshop.api\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E1F53EB-1618-412B-98E9-DDF9CF8D8FFD}|TileShop.API\\TileShop.API.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\tileshop.api\\authentication\\responses\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E1F53EB-1618-412B-98E9-DDF9CF8D8FFD}|TileShop.API\\TileShop.API.csproj|solutionrelative:tileshop.api\\authentication\\responses\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E1F53EB-1618-412B-98E9-DDF9CF8D8FFD}|TileShop.API\\TileShop.API.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\tileshop.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E1F53EB-1618-412B-98E9-DDF9CF8D8FFD}|TileShop.API\\TileShop.API.csproj|solutionrelative:tileshop.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E1F53EB-1618-412B-98E9-DDF9CF8D8FFD}|TileShop.API\\TileShop.API.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\tileshop.api\\users\\requests\\createuserrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E1F53EB-1618-412B-98E9-DDF9CF8D8FFD}|TileShop.API\\TileShop.API.csproj|solutionrelative:tileshop.api\\users\\requests\\createuserrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88AA96CE-4FE7-463D-A50B-2D7F26EE780F}|TileShop.Domain\\TileShop.Domain.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\tileshop.domain\\entities\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88AA96CE-4FE7-463D-A50B-2D7F26EE780F}|TileShop.Domain\\TileShop.Domain.csproj|solutionrelative:tileshop.domain\\entities\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88AA96CE-4FE7-463D-A50B-2D7F26EE780F}|TileShop.Domain\\TileShop.Domain.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\tileshop.domain\\entities\\feature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88AA96CE-4FE7-463D-A50B-2D7F26EE780F}|TileShop.Domain\\TileShop.Domain.csproj|solutionrelative:tileshop.domain\\entities\\feature.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88AA96CE-4FE7-463D-A50B-2D7F26EE780F}|TileShop.Domain\\TileShop.Domain.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\tileshop.domain\\entities\\featurevalue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88AA96CE-4FE7-463D-A50B-2D7F26EE780F}|TileShop.Domain\\TileShop.Domain.csproj|solutionrelative:tileshop.domain\\entities\\featurevalue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88AA96CE-4FE7-463D-A50B-2D7F26EE780F}|TileShop.Domain\\TileShop.Domain.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\tileshop.domain\\entities\\rating.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88AA96CE-4FE7-463D-A50B-2D7F26EE780F}|TileShop.Domain\\TileShop.Domain.csproj|solutionrelative:tileshop.domain\\entities\\rating.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59ED0B86-4FD7-44E8-B939-6A1263427293}|TileShop.Infrastructure\\TileShop.Infrastructure.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\tileshop.infrastructure\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59ED0B86-4FD7-44E8-B939-6A1263427293}|TileShop.Infrastructure\\TileShop.Infrastructure.csproj|solutionrelative:tileshop.infrastructure\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E1F53EB-1618-412B-98E9-DDF9CF8D8FFD}|TileShop.API\\TileShop.API.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\tileshop.api\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E1F53EB-1618-412B-98E9-DDF9CF8D8FFD}|TileShop.API\\TileShop.API.csproj|solutionrelative:tileshop.api\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E1F53EB-1618-412B-98E9-DDF9CF8D8FFD}|TileShop.API\\TileShop.API.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\tileshop.api\\controllers\\ratingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E1F53EB-1618-412B-98E9-DDF9CF8D8FFD}|TileShop.API\\TileShop.API.csproj|solutionrelative:tileshop.api\\controllers\\ratingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E1F53EB-1618-412B-98E9-DDF9CF8D8FFD}|TileShop.API\\TileShop.API.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\tileshop.api\\controllers\\reviewscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E1F53EB-1618-412B-98E9-DDF9CF8D8FFD}|TileShop.API\\TileShop.API.csproj|solutionrelative:tileshop.api\\controllers\\reviewscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{408CCB18-73AF-4B10-9FB0-85E899395D51}|TileShop.Application\\TileShop.Application.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\tileshop.application\\services\\ratingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{408CCB18-73AF-4B10-9FB0-85E899395D51}|TileShop.Application\\TileShop.Application.csproj|solutionrelative:tileshop.application\\services\\ratingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{408CCB18-73AF-4B10-9FB0-85E899395D51}|TileShop.Application\\TileShop.Application.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\tileshop.application\\services\\interfaces\\iratingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{408CCB18-73AF-4B10-9FB0-85E899395D51}|TileShop.Application\\TileShop.Application.csproj|solutionrelative:tileshop.application\\services\\interfaces\\iratingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{408CCB18-73AF-4B10-9FB0-85E899395D51}|TileShop.Application\\TileShop.Application.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\tileshop.application\\services\\reviewservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{408CCB18-73AF-4B10-9FB0-85E899395D51}|TileShop.Application\\TileShop.Application.csproj|solutionrelative:tileshop.application\\services\\reviewservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{408CCB18-73AF-4B10-9FB0-85E899395D51}|TileShop.Application\\TileShop.Application.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\tileshop.application\\profiles\\ratingtodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{408CCB18-73AF-4B10-9FB0-85E899395D51}|TileShop.Application\\TileShop.Application.csproj|solutionrelative:tileshop.application\\profiles\\ratingtodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59ED0B86-4FD7-44E8-B939-6A1263427293}|TileShop.Infrastructure\\TileShop.Infrastructure.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\tileshop.infrastructure\\repositories\\ratingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{59ED0B86-4FD7-44E8-B939-6A1263427293}|TileShop.Infrastructure\\TileShop.Infrastructure.csproj|solutionrelative:tileshop.infrastructure\\repositories\\ratingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88AA96CE-4FE7-463D-A50B-2D7F26EE780F}|TileShop.Domain\\TileShop.Domain.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\tileshop.domain\\repositories\\iratingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88AA96CE-4FE7-463D-A50B-2D7F26EE780F}|TileShop.Domain\\TileShop.Domain.csproj|solutionrelative:tileshop.domain\\repositories\\iratingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E1F53EB-1618-412B-98E9-DDF9CF8D8FFD}|TileShop.API\\TileShop.API.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\tileshop.api\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E1F53EB-1618-412B-98E9-DDF9CF8D8FFD}|TileShop.API\\TileShop.API.csproj|solutionrelative:tileshop.api\\controllers\\basecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{408CCB18-73AF-4B10-9FB0-85E899395D51}|TileShop.Application\\TileShop.Application.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\tileshop.application\\tileshop.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{408CCB18-73AF-4B10-9FB0-85E899395D51}|TileShop.Application\\TileShop.Application.csproj|solutionrelative:tileshop.application\\tileshop.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88AA96CE-4FE7-463D-A50B-2D7F26EE780F}|TileShop.Domain\\TileShop.Domain.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\tileshop.domain\\entities\\basketdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88AA96CE-4FE7-463D-A50B-2D7F26EE780F}|TileShop.Domain\\TileShop.Domain.csproj|solutionrelative:tileshop.domain\\entities\\basketdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8E1F53EB-1618-412B-98E9-DDF9CF8D8FFD}|TileShop.API\\TileShop.API.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\tileshop.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{8E1F53EB-1618-412B-98E9-DDF9CF8D8FFD}|TileShop.API\\TileShop.API.csproj|solutionrelative:tileshop.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{88AA96CE-4FE7-463D-A50B-2D7F26EE780F}|TileShop.Domain\\TileShop.Domain.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\tileshop.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{88AA96CE-4FE7-463D-A50B-2D7F26EE780F}|TileShop.Domain\\TileShop.Domain.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\tileshop.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{88AA96CE-4FE7-463D-A50B-2D7F26EE780F}|TileShop.Domain\\TileShop.Domain.csproj|solutionrelative:tileshop.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{88AA96CE-4FE7-463D-A50B-2D7F26EE780F}|TileShop.Domain\\TileShop.Domain.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\tileshop.domain\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{88AA96CE-4FE7-463D-A50B-2D7F26EE780F}|TileShop.Domain\\TileShop.Domain.csproj|c:\\users\\polta\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\tileshop.domain\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{88AA96CE-4FE7-463D-A50B-2D7F26EE780F}|TileShop.Domain\\TileShop.Domain.csproj|solutionrelative:tileshop.domain\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -262,54 +306,345 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 63,
               "Title": "IRatingService.cs",
-              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\TileShop.Application\\Services\\Interfaces\\IRatingService.cs",
+              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.Application\\Services\\Interfaces\\IRatingService.cs",
               "RelativeDocumentMoniker": "TileShop.Application\\Services\\Interfaces\\IRatingService.cs",
-              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\TileShop.Application\\Services\\Interfaces\\IRatingService.cs",
+              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.Application\\Services\\Interfaces\\IRatingService.cs",
               "RelativeToolTip": "TileShop.Application\\Services\\Interfaces\\IRatingService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-25T13:23:59.875Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\TileShop.API\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.API\\Program.cs",
               "RelativeDocumentMoniker": "TileShop.API\\Program.cs",
-              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\TileShop.API\\Program.cs",
+              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.API\\Program.cs",
               "RelativeToolTip": "TileShop.API\\Program.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABkAAAAYAAAA",
+              "ViewState": "AQIAACQAAAAAAAAAAAAAAD0AAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-25T00:27:32.26Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.API\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "TileShop.API\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.API\\appsettings.Development.json",
+              "RelativeToolTip": "TileShop.API\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-25T00:27:23.433Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Order.cs",
-              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\TileShop.Domain\\Entities\\Order.cs",
-              "RelativeDocumentMoniker": "TileShop.Domain\\Entities\\Order.cs",
-              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\TileShop.Domain\\Entities\\Order.cs",
-              "RelativeToolTip": "TileShop.Domain\\Entities\\Order.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Title": "ConfigureServices.cs",
+              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.API\\ConfigureServices.cs",
+              "RelativeDocumentMoniker": "TileShop.API\\ConfigureServices.cs",
+              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.API\\ConfigureServices.cs",
+              "RelativeToolTip": "TileShop.API\\ConfigureServices.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAABUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T19:53:09.419Z",
+              "WhenOpened": "2024-04-25T00:30:51.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DatabaseSeed.cs",
+              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.Infrastructure\\DatabaseSeed.cs",
+              "RelativeDocumentMoniker": "TileShop.Infrastructure\\DatabaseSeed.cs",
+              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.Infrastructure\\DatabaseSeed.cs",
+              "RelativeToolTip": "TileShop.Infrastructure\\DatabaseSeed.cs",
+              "ViewState": "AQIAAPoAAAAAAAAAAAAUwBgBAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T21:26:10.312Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.Infrastructure\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "TileShop.Infrastructure\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.Infrastructure\\ApplicationDbContext.cs",
+              "RelativeToolTip": "TileShop.Infrastructure\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T00:30:46.743Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OrderRepository.cs",
+              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.Infrastructure\\Repositories\\OrderRepository.cs",
+              "RelativeDocumentMoniker": "TileShop.Infrastructure\\Repositories\\OrderRepository.cs",
+              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.Infrastructure\\Repositories\\OrderRepository.cs",
+              "RelativeToolTip": "TileShop.Infrastructure\\Repositories\\OrderRepository.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAIwEQAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T20:45:40.686Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CategoryDto.cs",
+              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.Domain\\Dtos\\CategoryDto.cs",
+              "RelativeDocumentMoniker": "TileShop.Domain\\Dtos\\CategoryDto.cs",
+              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.Domain\\Dtos\\CategoryDto.cs",
+              "RelativeToolTip": "TileShop.Domain\\Dtos\\CategoryDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T10:35:29.848Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "OrderDetailsDto.cs",
+              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.Domain\\Dtos\\OrderDetailsDto.cs",
+              "RelativeDocumentMoniker": "TileShop.Domain\\Dtos\\OrderDetailsDto.cs",
+              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.Domain\\Dtos\\OrderDetailsDto.cs",
+              "RelativeToolTip": "TileShop.Domain\\Dtos\\OrderDetailsDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T06:53:42.014Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "OrderDto.cs",
+              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.Domain\\Dtos\\OrderDto.cs",
+              "RelativeDocumentMoniker": "TileShop.Domain\\Dtos\\OrderDto.cs",
+              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.Domain\\Dtos\\OrderDto.cs",
+              "RelativeToolTip": "TileShop.Domain\\Dtos\\OrderDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T06:53:37.81Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ProductDto.cs",
+              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.Domain\\Dtos\\ProductDto.cs",
+              "RelativeDocumentMoniker": "TileShop.Domain\\Dtos\\ProductDto.cs",
+              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.Domain\\Dtos\\ProductDto.cs",
+              "RelativeToolTip": "TileShop.Domain\\Dtos\\ProductDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T01:02:31.395Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.API\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "TileShop.API\\Controllers\\OrdersController.cs",
+              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.API\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "TileShop.API\\Controllers\\OrdersController.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAA1wCMAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T06:30:30.477Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.Application\\Services\\OrderService.cs",
+              "RelativeDocumentMoniker": "TileShop.Application\\Services\\OrderService.cs",
+              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.Application\\Services\\OrderService.cs",
+              "RelativeToolTip": "TileShop.Application\\Services\\OrderService.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAcwEcAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T06:36:07.15Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BasketDetailsRepository.cs",
+              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.Infrastructure\\Repositories\\BasketDetailsRepository.cs",
+              "RelativeDocumentMoniker": "TileShop.Infrastructure\\Repositories\\BasketDetailsRepository.cs",
+              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.Infrastructure\\Repositories\\BasketDetailsRepository.cs",
+              "RelativeToolTip": "TileShop.Infrastructure\\Repositories\\BasketDetailsRepository.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAgwBEAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T06:24:23.148Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IOrderService.cs",
+              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.Application\\Services\\Interfaces\\IOrderService.cs",
+              "RelativeDocumentMoniker": "TileShop.Application\\Services\\Interfaces\\IOrderService.cs",
+              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.Application\\Services\\Interfaces\\IOrderService.cs",
+              "RelativeToolTip": "TileShop.Application\\Services\\Interfaces\\IOrderService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T21:18:03.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DtoToOrderResponse.cs",
+              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.API\\Profiles\\DtoToOrderResponse.cs",
+              "RelativeDocumentMoniker": "TileShop.API\\Profiles\\DtoToOrderResponse.cs",
+              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.API\\Profiles\\DtoToOrderResponse.cs",
+              "RelativeToolTip": "TileShop.API\\Profiles\\DtoToOrderResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T00:33:36.675Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "DtoToOrderDetailsResponse.cs",
+              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.API\\Profiles\\DtoToOrderDetailsResponse.cs",
+              "RelativeDocumentMoniker": "TileShop.API\\Profiles\\DtoToOrderDetailsResponse.cs",
+              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.API\\Profiles\\DtoToOrderDetailsResponse.cs",
+              "RelativeToolTip": "TileShop.API\\Profiles\\DtoToOrderDetailsResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T00:33:02.487Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "DtoToProductResponse.cs",
+              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.API\\Profiles\\DtoToProductResponse.cs",
+              "RelativeDocumentMoniker": "TileShop.API\\Profiles\\DtoToProductResponse.cs",
+              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.API\\Profiles\\DtoToProductResponse.cs",
+              "RelativeToolTip": "TileShop.API\\Profiles\\DtoToProductResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T00:32:21.628Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "DtoToCategoryResponse.cs",
+              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.API\\Profiles\\DtoToCategoryResponse.cs",
+              "RelativeDocumentMoniker": "TileShop.API\\Profiles\\DtoToCategoryResponse.cs",
+              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.API\\Profiles\\DtoToCategoryResponse.cs",
+              "RelativeToolTip": "TileShop.API\\Profiles\\DtoToCategoryResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T00:31:44.752Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "OrderDetailsResponse.cs",
+              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.API\\Order\\Responses\\OrderDetailsResponse.cs",
+              "RelativeDocumentMoniker": "TileShop.API\\Order\\Responses\\OrderDetailsResponse.cs",
+              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.API\\Order\\Responses\\OrderDetailsResponse.cs",
+              "RelativeToolTip": "TileShop.API\\Order\\Responses\\OrderDetailsResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T00:28:58.55Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ProductResponse.cs",
+              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.API\\Products\\Responses\\ProductResponse.cs",
+              "RelativeDocumentMoniker": "TileShop.API\\Products\\Responses\\ProductResponse.cs",
+              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.API\\Products\\Responses\\ProductResponse.cs",
+              "RelativeToolTip": "TileShop.API\\Products\\Responses\\ProductResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T00:26:21.077Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "OrderResponse.cs",
+              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.API\\Order\\Responses\\OrderResponse.cs",
+              "RelativeDocumentMoniker": "TileShop.API\\Order\\Responses\\OrderResponse.cs",
+              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.API\\Order\\Responses\\OrderResponse.cs",
+              "RelativeToolTip": "TileShop.API\\Order\\Responses\\OrderResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T00:28:48.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "CategoryResponse.cs",
+              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.API\\Categories\\Responses\\CategoryResponse.cs",
+              "RelativeDocumentMoniker": "TileShop.API\\Categories\\Responses\\CategoryResponse.cs",
+              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.API\\Categories\\Responses\\CategoryResponse.cs",
+              "RelativeToolTip": "TileShop.API\\Categories\\Responses\\CategoryResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T00:28:02.466Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "IOrderRepository.cs",
+              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.Domain\\Repositories\\IOrderRepository.cs",
+              "RelativeDocumentMoniker": "TileShop.Domain\\Repositories\\IOrderRepository.cs",
+              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.Domain\\Repositories\\IOrderRepository.cs",
+              "RelativeToolTip": "TileShop.Domain\\Repositories\\IOrderRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-27T21:10:03.601Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "CloudinarySettings.cs",
+              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.Application\\Settings\\CloudinarySettings.cs",
+              "RelativeDocumentMoniker": "TileShop.Application\\Settings\\CloudinarySettings.cs",
+              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.Application\\Settings\\CloudinarySettings.cs",
+              "RelativeToolTip": "TileShop.Application\\Settings\\CloudinarySettings.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T23:56:22.551Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
               "Title": "OrderDetails.cs",
-              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\TileShop.Domain\\Entities\\OrderDetails.cs",
+              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.Domain\\Entities\\OrderDetails.cs",
               "RelativeDocumentMoniker": "TileShop.Domain\\Entities\\OrderDetails.cs",
-              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\TileShop.Domain\\Entities\\OrderDetails.cs",
+              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.Domain\\Entities\\OrderDetails.cs",
               "RelativeToolTip": "TileShop.Domain\\Entities\\OrderDetails.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -318,717 +653,627 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 26,
               "Title": "ImageService.cs",
-              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\TileShop.Application\\Services\\ImageService.cs",
+              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.Application\\Services\\ImageService.cs",
               "RelativeDocumentMoniker": "TileShop.Application\\Services\\ImageService.cs",
-              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\TileShop.Application\\Services\\ImageService.cs",
+              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.Application\\Services\\ImageService.cs",
               "RelativeToolTip": "TileShop.Application\\Services\\ImageService.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAlwCgAAAAQAAAA",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAawCgAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-26T23:57:49.536Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 24,
               "Title": "ProductsController.cs",
-              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\TileShop.API\\Controllers\\ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.API\\Controllers\\ProductsController.cs",
               "RelativeDocumentMoniker": "TileShop.API\\Controllers\\ProductsController.cs",
-              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\TileShop.API\\Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.API\\Controllers\\ProductsController.cs",
               "RelativeToolTip": "TileShop.API\\Controllers\\ProductsController.cs",
-              "ViewState": "AQIAAC8AAAAAAAAAAAAIwEAAAAAbAAAA",
+              "ViewState": "AQIAABsAAAAAAAAAAAAowCsAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-25T00:57:45.977Z",
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ImagesController.cs",
-              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\TileShop.API\\Controllers\\ImagesController.cs",
-              "RelativeDocumentMoniker": "TileShop.API\\Controllers\\ImagesController.cs",
-              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\TileShop.API\\Controllers\\ImagesController.cs",
-              "RelativeToolTip": "TileShop.API\\Controllers\\ImagesController.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAAABsAAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-25T00:57:36.165Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ProductRepository.cs",
-              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\TileShop.Infrastructure\\Repositories\\ProductRepository.cs",
-              "RelativeDocumentMoniker": "TileShop.Infrastructure\\Repositories\\ProductRepository.cs",
-              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\TileShop.Infrastructure\\Repositories\\ProductRepository.cs",
-              "RelativeToolTip": "TileShop.Infrastructure\\Repositories\\ProductRepository.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABAAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-25T01:09:44.99Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ConfigureServices.cs",
-              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\TileShop.API\\ConfigureServices.cs",
-              "RelativeDocumentMoniker": "TileShop.API\\ConfigureServices.cs",
-              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\TileShop.API\\ConfigureServices.cs",
-              "RelativeToolTip": "TileShop.API\\ConfigureServices.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAACMAAAA8AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-25T00:30:51.463Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "IImageService.cs",
-              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\TileShop.Application\\Services\\Interfaces\\IImageService.cs",
-              "RelativeDocumentMoniker": "TileShop.Application\\Services\\Interfaces\\IImageService.cs",
-              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\TileShop.Application\\Services\\Interfaces\\IImageService.cs",
-              "RelativeToolTip": "TileShop.Application\\Services\\Interfaces\\IImageService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAA7AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-27T00:08:54.747Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\TileShop.Application\\Services\\UserService.cs",
-              "RelativeDocumentMoniker": "TileShop.Application\\Services\\UserService.cs",
-              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\TileShop.Application\\Services\\UserService.cs",
-              "RelativeToolTip": "TileShop.Application\\Services\\UserService.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAApwBkAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-25T12:52:44.999Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "CloudinarySettings.cs",
-              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\TileShop.Application\\Settings\\CloudinarySettings.cs",
-              "RelativeDocumentMoniker": "TileShop.Application\\Settings\\CloudinarySettings.cs",
-              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\TileShop.Application\\Settings\\CloudinarySettings.cs",
-              "RelativeToolTip": "TileShop.Application\\Settings\\CloudinarySettings.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-26T23:56:22.551Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "BaseRepository.cs",
-              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\TileShop.Infrastructure\\Repositories\\BaseRepository.cs",
-              "RelativeDocumentMoniker": "TileShop.Infrastructure\\Repositories\\BaseRepository.cs",
-              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\TileShop.Infrastructure\\Repositories\\BaseRepository.cs",
-              "RelativeToolTip": "TileShop.Infrastructure\\Repositories\\BaseRepository.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAABQwB4AAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-25T01:07:19.402Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\TileShop.API\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "TileShop.API\\appsettings.Development.json",
-              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\TileShop.API\\appsettings.Development.json",
-              "RelativeToolTip": "TileShop.API\\appsettings.Development.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-04-25T00:27:23.433Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 25,
               "Title": "CreateProductRequest.cs",
-              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\TileShop.API\\Products\\Requests\\CreateProductRequest.cs",
+              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.API\\Products\\Requests\\CreateProductRequest.cs",
               "RelativeDocumentMoniker": "TileShop.API\\Products\\Requests\\CreateProductRequest.cs",
-              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\TileShop.API\\Products\\Requests\\CreateProductRequest.cs",
+              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.API\\Products\\Requests\\CreateProductRequest.cs",
               "RelativeToolTip": "TileShop.API\\Products\\Requests\\CreateProductRequest.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-26T21:44:30.692Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "UpdateProductRequest.cs",
-              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\TileShop.API\\Products\\Requests\\UpdateProductRequest.cs",
-              "RelativeDocumentMoniker": "TileShop.API\\Products\\Requests\\UpdateProductRequest.cs",
-              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\TileShop.API\\Products\\Requests\\UpdateProductRequest.cs",
-              "RelativeToolTip": "TileShop.API\\Products\\Requests\\UpdateProductRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAQAAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-25T00:57:54.826Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "ProductService.cs",
-              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\TileShop.Application\\Services\\ProductService.cs",
-              "RelativeDocumentMoniker": "TileShop.Application\\Services\\ProductService.cs",
-              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\TileShop.Application\\Services\\ProductService.cs",
-              "RelativeToolTip": "TileShop.Application\\Services\\ProductService.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAgwCkAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-25T01:08:26.2Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "IProductRepository.cs",
-              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\TileShop.Domain\\Repositories\\IProductRepository.cs",
-              "RelativeDocumentMoniker": "TileShop.Domain\\Repositories\\IProductRepository.cs",
-              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\TileShop.Domain\\Repositories\\IProductRepository.cs",
-              "RelativeToolTip": "TileShop.Domain\\Repositories\\IProductRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAvAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-26T11:44:43.879Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Product.cs",
-              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\TileShop.Domain\\Entities\\Product.cs",
-              "RelativeDocumentMoniker": "TileShop.Domain\\Entities\\Product.cs",
-              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\TileShop.Domain\\Entities\\Product.cs",
-              "RelativeToolTip": "TileShop.Domain\\Entities\\Product.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T19:48:59.3Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "ProductDto.cs",
-              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\TileShop.Domain\\Dtos\\ProductDto.cs",
-              "RelativeDocumentMoniker": "TileShop.Domain\\Dtos\\ProductDto.cs",
-              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\TileShop.Domain\\Dtos\\ProductDto.cs",
-              "RelativeToolTip": "TileShop.Domain\\Dtos\\ProductDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-25T01:02:31.395Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "ProductToDto.cs",
-              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\TileShop.Application\\Profiles\\ProductToDto.cs",
-              "RelativeDocumentMoniker": "TileShop.Application\\Profiles\\ProductToDto.cs",
-              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\TileShop.Application\\Profiles\\ProductToDto.cs",
-              "RelativeToolTip": "TileShop.Application\\Profiles\\ProductToDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-25T21:19:59.545Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "ReviewDto.cs",
-              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\TileShop.Domain\\Dtos\\ReviewDto.cs",
-              "RelativeDocumentMoniker": "TileShop.Domain\\Dtos\\ReviewDto.cs",
-              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\TileShop.Domain\\Dtos\\ReviewDto.cs",
-              "RelativeToolTip": "TileShop.Domain\\Dtos\\ReviewDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-25T21:53:23.619Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "OrderDetailsDto.cs",
-              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\TileShop.Domain\\Dtos\\OrderDetailsDto.cs",
-              "RelativeDocumentMoniker": "TileShop.Domain\\Dtos\\OrderDetailsDto.cs",
-              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\TileShop.Domain\\Dtos\\OrderDetailsDto.cs",
-              "RelativeToolTip": "TileShop.Domain\\Dtos\\OrderDetailsDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-26T06:53:42.014Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "RatingDto.cs",
-              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\TileShop.Domain\\Dtos\\RatingDto.cs",
-              "RelativeDocumentMoniker": "TileShop.Domain\\Dtos\\RatingDto.cs",
-              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\TileShop.Domain\\Dtos\\RatingDto.cs",
-              "RelativeToolTip": "TileShop.Domain\\Dtos\\RatingDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-25T13:18:43.451Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "CategoryDto.cs",
-              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\TileShop.Domain\\Dtos\\CategoryDto.cs",
-              "RelativeDocumentMoniker": "TileShop.Domain\\Dtos\\CategoryDto.cs",
-              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\TileShop.Domain\\Dtos\\CategoryDto.cs",
-              "RelativeToolTip": "TileShop.Domain\\Dtos\\CategoryDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-26T10:35:29.848Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "UserDto.cs",
-              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\TileShop.Domain\\Dtos\\UserDto.cs",
-              "RelativeDocumentMoniker": "TileShop.Domain\\Dtos\\UserDto.cs",
-              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\TileShop.Domain\\Dtos\\UserDto.cs",
-              "RelativeToolTip": "TileShop.Domain\\Dtos\\UserDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA5AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-25T12:56:33.484Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "OrderDto.cs",
-              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\TileShop.Domain\\Dtos\\OrderDto.cs",
-              "RelativeDocumentMoniker": "TileShop.Domain\\Dtos\\OrderDto.cs",
-              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\TileShop.Domain\\Dtos\\OrderDto.cs",
-              "RelativeToolTip": "TileShop.Domain\\Dtos\\OrderDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-26T06:53:37.81Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "Basket.cs",
-              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\TileShop.Domain\\Entities\\Basket.cs",
-              "RelativeDocumentMoniker": "TileShop.Domain\\Entities\\Basket.cs",
-              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\TileShop.Domain\\Entities\\Basket.cs",
-              "RelativeToolTip": "TileShop.Domain\\Entities\\Basket.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T19:54:35.675Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "CreateCategoryRequest.cs",
-              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\TileShop.API\\Categories\\Requests\\CreateCategoryRequest.cs",
-              "RelativeDocumentMoniker": "TileShop.API\\Categories\\Requests\\CreateCategoryRequest.cs",
-              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\TileShop.API\\Categories\\Requests\\CreateCategoryRequest.cs",
-              "RelativeToolTip": "TileShop.API\\Categories\\Requests\\CreateCategoryRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-26T09:48:26.439Z"
+              "WhenOpened": "2024-04-26T21:44:30.692Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 27,
-              "Title": "UpdateCategoryRequest.cs",
-              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\TileShop.API\\Categories\\Requests\\UpdateCategoryRequest.cs",
-              "RelativeDocumentMoniker": "TileShop.API\\Categories\\Requests\\UpdateCategoryRequest.cs",
-              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\TileShop.API\\Categories\\Requests\\UpdateCategoryRequest.cs",
-              "RelativeToolTip": "TileShop.API\\Categories\\Requests\\UpdateCategoryRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.Domain\\Entities\\Order.cs",
+              "RelativeDocumentMoniker": "TileShop.Domain\\Entities\\Order.cs",
+              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.Domain\\Entities\\Order.cs",
+              "RelativeToolTip": "TileShop.Domain\\Entities\\Order.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-26T09:48:29.051Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "OrderDetailsRepository.cs",
-              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\TileShop.Infrastructure\\Repositories\\OrderDetailsRepository.cs",
-              "RelativeDocumentMoniker": "TileShop.Infrastructure\\Repositories\\OrderDetailsRepository.cs",
-              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\TileShop.Infrastructure\\Repositories\\OrderDetailsRepository.cs",
-              "RelativeToolTip": "TileShop.Infrastructure\\Repositories\\OrderDetailsRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-26T06:38:58.3Z"
+              "WhenOpened": "2024-04-24T19:53:09.419Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 29,
-              "Title": "OrderService.cs",
-              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\TileShop.Application\\Services\\OrderService.cs",
-              "RelativeDocumentMoniker": "TileShop.Application\\Services\\OrderService.cs",
-              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\TileShop.Application\\Services\\OrderService.cs",
-              "RelativeToolTip": "TileShop.Application\\Services\\OrderService.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAgwC8AAAAIAAAA",
+              "Title": "ImagesController.cs",
+              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.API\\Controllers\\ImagesController.cs",
+              "RelativeDocumentMoniker": "TileShop.API\\Controllers\\ImagesController.cs",
+              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.API\\Controllers\\ImagesController.cs",
+              "RelativeToolTip": "TileShop.API\\Controllers\\ImagesController.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAIBZwBsAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-26T06:36:07.15Z"
+              "WhenOpened": "2024-04-25T00:57:36.165Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.Infrastructure\\Repositories\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "TileShop.Infrastructure\\Repositories\\ProductRepository.cs",
+              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.Infrastructure\\Repositories\\ProductRepository.cs",
+              "RelativeToolTip": "TileShop.Infrastructure\\Repositories\\ProductRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBZwBAAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T01:09:44.99Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 31,
-              "Title": "OrdersController.cs",
-              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\TileShop.API\\Controllers\\OrdersController.cs",
-              "RelativeDocumentMoniker": "TileShop.API\\Controllers\\OrdersController.cs",
-              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\TileShop.API\\Controllers\\OrdersController.cs",
-              "RelativeToolTip": "TileShop.API\\Controllers\\OrdersController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAIBJwBwAAAAIAAAA",
+              "Title": "IImageService.cs",
+              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.Application\\Services\\Interfaces\\IImageService.cs",
+              "RelativeDocumentMoniker": "TileShop.Application\\Services\\Interfaces\\IImageService.cs",
+              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.Application\\Services\\Interfaces\\IImageService.cs",
+              "RelativeToolTip": "TileShop.Application\\Services\\Interfaces\\IImageService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-26T06:30:30.477Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "IBasketDetailsRepository.cs",
-              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\TileShop.Domain\\Repositories\\IBasketDetailsRepository.cs",
-              "RelativeDocumentMoniker": "TileShop.Domain\\Repositories\\IBasketDetailsRepository.cs",
-              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\TileShop.Domain\\Repositories\\IBasketDetailsRepository.cs",
-              "RelativeToolTip": "TileShop.Domain\\Repositories\\IBasketDetailsRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-26T06:26:29.49Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "BasketsController.cs",
-              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\TileShop.API\\Controllers\\BasketsController.cs",
-              "RelativeDocumentMoniker": "TileShop.API\\Controllers\\BasketsController.cs",
-              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\TileShop.API\\Controllers\\BasketsController.cs",
-              "RelativeToolTip": "TileShop.API\\Controllers\\BasketsController.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAowDkAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-26T05:02:59.06Z"
+              "WhenOpened": "2024-04-27T00:08:54.747Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 32,
-              "Title": "BasketService.cs",
-              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\TileShop.Application\\Services\\BasketService.cs",
-              "RelativeDocumentMoniker": "TileShop.Application\\Services\\BasketService.cs",
-              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\TileShop.Application\\Services\\BasketService.cs",
-              "RelativeToolTip": "TileShop.Application\\Services\\BasketService.cs",
-              "ViewState": "AQIAACQAAAAAAAAAAAASwDUAAAAJAAAA",
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.Application\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "TileShop.Application\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.Application\\Services\\UserService.cs",
+              "RelativeToolTip": "TileShop.Application\\Services\\UserService.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAApwBkAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-26T04:46:58.744Z"
+              "WhenOpened": "2024-04-25T12:52:44.999Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "BaseRepository.cs",
+              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.Infrastructure\\Repositories\\BaseRepository.cs",
+              "RelativeDocumentMoniker": "TileShop.Infrastructure\\Repositories\\BaseRepository.cs",
+              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.Infrastructure\\Repositories\\BaseRepository.cs",
+              "RelativeToolTip": "TileShop.Infrastructure\\Repositories\\BaseRepository.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAqwB4AAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T01:07:19.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "UpdateProductRequest.cs",
+              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.API\\Products\\Requests\\UpdateProductRequest.cs",
+              "RelativeDocumentMoniker": "TileShop.API\\Products\\Requests\\UpdateProductRequest.cs",
+              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.API\\Products\\Requests\\UpdateProductRequest.cs",
+              "RelativeToolTip": "TileShop.API\\Products\\Requests\\UpdateProductRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAQAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T00:57:54.826Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 35,
-              "Title": "BasketDetailsRepository.cs",
-              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\TileShop.Infrastructure\\Repositories\\BasketDetailsRepository.cs",
-              "RelativeDocumentMoniker": "TileShop.Infrastructure\\Repositories\\BasketDetailsRepository.cs",
-              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\TileShop.Infrastructure\\Repositories\\BasketDetailsRepository.cs",
-              "RelativeToolTip": "TileShop.Infrastructure\\Repositories\\BasketDetailsRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAXAAAA",
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.Application\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "TileShop.Application\\Services\\ProductService.cs",
+              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.Application\\Services\\ProductService.cs",
+              "RelativeToolTip": "TileShop.Application\\Services\\ProductService.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwCkAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-26T06:24:23.148Z"
+              "WhenOpened": "2024-04-25T01:08:26.2Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 36,
-              "Title": "BasketRepository.cs",
-              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\TileShop.Infrastructure\\Repositories\\BasketRepository.cs",
-              "RelativeDocumentMoniker": "TileShop.Infrastructure\\Repositories\\BasketRepository.cs",
-              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\TileShop.Infrastructure\\Repositories\\BasketRepository.cs",
-              "RelativeToolTip": "TileShop.Infrastructure\\Repositories\\BasketRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.Domain\\Repositories\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "TileShop.Domain\\Repositories\\IProductRepository.cs",
+              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.Domain\\Repositories\\IProductRepository.cs",
+              "RelativeToolTip": "TileShop.Domain\\Repositories\\IProductRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-26T05:16:58.971Z"
+              "WhenOpened": "2024-04-26T11:44:43.879Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 37,
-              "Title": "AuthenticationController.cs",
-              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\TileShop.API\\Controllers\\AuthenticationController.cs",
-              "RelativeDocumentMoniker": "TileShop.API\\Controllers\\AuthenticationController.cs",
-              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\TileShop.API\\Controllers\\AuthenticationController.cs",
-              "RelativeToolTip": "TileShop.API\\Controllers\\AuthenticationController.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAIBJwCUAAAAAAAAA",
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.Domain\\Entities\\Product.cs",
+              "RelativeDocumentMoniker": "TileShop.Domain\\Entities\\Product.cs",
+              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.Domain\\Entities\\Product.cs",
+              "RelativeToolTip": "TileShop.Domain\\Entities\\Product.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-25T18:29:39.377Z"
+              "WhenOpened": "2024-04-24T19:48:59.3Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 38,
-              "Title": "LoginResponse.cs",
-              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\TileShop.API\\Authentication\\Responses\\LoginResponse.cs",
-              "RelativeDocumentMoniker": "TileShop.API\\Authentication\\Responses\\LoginResponse.cs",
-              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\TileShop.API\\Authentication\\Responses\\LoginResponse.cs",
-              "RelativeToolTip": "TileShop.API\\Authentication\\Responses\\LoginResponse.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Title": "ProductToDto.cs",
+              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.Application\\Profiles\\ProductToDto.cs",
+              "RelativeDocumentMoniker": "TileShop.Application\\Profiles\\ProductToDto.cs",
+              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.Application\\Profiles\\ProductToDto.cs",
+              "RelativeToolTip": "TileShop.Application\\Profiles\\ProductToDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-26T04:25:10.945Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "UsersController.cs",
-              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\TileShop.API\\Controllers\\UsersController.cs",
-              "RelativeDocumentMoniker": "TileShop.API\\Controllers\\UsersController.cs",
-              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\TileShop.API\\Controllers\\UsersController.cs",
-              "RelativeToolTip": "TileShop.API\\Controllers\\UsersController.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAQwCgAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-25T12:54:43.374Z"
+              "WhenOpened": "2024-04-25T21:19:59.545Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 40,
-              "Title": "CreateUserRequest.cs",
-              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\TileShop.API\\Users\\Requests\\CreateUserRequest.cs",
-              "RelativeDocumentMoniker": "TileShop.API\\Users\\Requests\\CreateUserRequest.cs",
-              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\TileShop.API\\Users\\Requests\\CreateUserRequest.cs",
-              "RelativeToolTip": "TileShop.API\\Users\\Requests\\CreateUserRequest.cs",
+              "Title": "ReviewDto.cs",
+              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.Domain\\Dtos\\ReviewDto.cs",
+              "RelativeDocumentMoniker": "TileShop.Domain\\Dtos\\ReviewDto.cs",
+              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.Domain\\Dtos\\ReviewDto.cs",
+              "RelativeToolTip": "TileShop.Domain\\Dtos\\ReviewDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-25T12:43:04.659Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "DatabaseSeed.cs",
-              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\TileShop.Infrastructure\\DatabaseSeed.cs",
-              "RelativeDocumentMoniker": "TileShop.Infrastructure\\DatabaseSeed.cs",
-              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\TileShop.Infrastructure\\DatabaseSeed.cs",
-              "RelativeToolTip": "TileShop.Infrastructure\\DatabaseSeed.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAI4AAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-25T21:26:10.312Z"
+              "WhenOpened": "2024-04-25T21:53:23.619Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 41,
-              "Title": "Review.cs",
-              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\TileShop.Domain\\Entities\\Review.cs",
-              "RelativeDocumentMoniker": "TileShop.Domain\\Entities\\Review.cs",
-              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\TileShop.Domain\\Entities\\Review.cs",
-              "RelativeToolTip": "TileShop.Domain\\Entities\\Review.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Title": "RatingDto.cs",
+              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.Domain\\Dtos\\RatingDto.cs",
+              "RelativeDocumentMoniker": "TileShop.Domain\\Dtos\\RatingDto.cs",
+              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.Domain\\Dtos\\RatingDto.cs",
+              "RelativeToolTip": "TileShop.Domain\\Dtos\\RatingDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T19:52:10.335Z"
+              "WhenOpened": "2024-04-25T13:18:43.451Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "Feature.cs",
-              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\TileShop.Domain\\Entities\\Feature.cs",
-              "RelativeDocumentMoniker": "TileShop.Domain\\Entities\\Feature.cs",
-              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\TileShop.Domain\\Entities\\Feature.cs",
-              "RelativeToolTip": "TileShop.Domain\\Entities\\Feature.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 39,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.Domain\\Dtos\\UserDto.cs",
+              "RelativeDocumentMoniker": "TileShop.Domain\\Dtos\\UserDto.cs",
+              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.Domain\\Dtos\\UserDto.cs",
+              "RelativeToolTip": "TileShop.Domain\\Dtos\\UserDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T19:55:29.096Z"
+              "WhenOpened": "2024-04-25T12:56:33.484Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "Basket.cs",
+              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.Domain\\Entities\\Basket.cs",
+              "RelativeDocumentMoniker": "TileShop.Domain\\Entities\\Basket.cs",
+              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.Domain\\Entities\\Basket.cs",
+              "RelativeToolTip": "TileShop.Domain\\Entities\\Basket.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T19:54:35.675Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 44,
-              "Title": "FeatureValue.cs",
-              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\TileShop.Domain\\Entities\\FeatureValue.cs",
-              "RelativeDocumentMoniker": "TileShop.Domain\\Entities\\FeatureValue.cs",
-              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\TileShop.Domain\\Entities\\FeatureValue.cs",
-              "RelativeToolTip": "TileShop.Domain\\Entities\\FeatureValue.cs",
+              "Title": "CreateCategoryRequest.cs",
+              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.API\\Categories\\Requests\\CreateCategoryRequest.cs",
+              "RelativeDocumentMoniker": "TileShop.API\\Categories\\Requests\\CreateCategoryRequest.cs",
+              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.API\\Categories\\Requests\\CreateCategoryRequest.cs",
+              "RelativeToolTip": "TileShop.API\\Categories\\Requests\\CreateCategoryRequest.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T19:55:50.309Z"
+              "WhenOpened": "2024-04-26T09:48:26.439Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "UpdateCategoryRequest.cs",
+              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.API\\Categories\\Requests\\UpdateCategoryRequest.cs",
+              "RelativeDocumentMoniker": "TileShop.API\\Categories\\Requests\\UpdateCategoryRequest.cs",
+              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.API\\Categories\\Requests\\UpdateCategoryRequest.cs",
+              "RelativeToolTip": "TileShop.API\\Categories\\Requests\\UpdateCategoryRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T09:48:29.051Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 45,
-              "Title": "Rating.cs",
-              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\TileShop.Domain\\Entities\\Rating.cs",
-              "RelativeDocumentMoniker": "TileShop.Domain\\Entities\\Rating.cs",
-              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\TileShop.Domain\\Entities\\Rating.cs",
-              "RelativeToolTip": "TileShop.Domain\\Entities\\Rating.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Title": "OrderDetailsRepository.cs",
+              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.Infrastructure\\Repositories\\OrderDetailsRepository.cs",
+              "RelativeDocumentMoniker": "TileShop.Infrastructure\\Repositories\\OrderDetailsRepository.cs",
+              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.Infrastructure\\Repositories\\OrderDetailsRepository.cs",
+              "RelativeToolTip": "TileShop.Infrastructure\\Repositories\\OrderDetailsRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T19:51:12.049Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 47,
-              "Title": "CategoriesController.cs",
-              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\TileShop.API\\Controllers\\CategoriesController.cs",
-              "RelativeDocumentMoniker": "TileShop.API\\Controllers\\CategoriesController.cs",
-              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\TileShop.API\\Controllers\\CategoriesController.cs",
-              "RelativeToolTip": "TileShop.API\\Controllers\\CategoriesController.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAIBJwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-25T20:14:33.579Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 46,
-              "Title": "CategoryRepository.cs",
-              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\TileShop.Infrastructure\\Repositories\\CategoryRepository.cs",
-              "RelativeDocumentMoniker": "TileShop.Infrastructure\\Repositories\\CategoryRepository.cs",
-              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\TileShop.Infrastructure\\Repositories\\CategoryRepository.cs",
-              "RelativeToolTip": "TileShop.Infrastructure\\Repositories\\CategoryRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-25T20:14:44.498Z"
+              "WhenOpened": "2024-04-26T06:38:58.3Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 48,
-              "Title": "RatingController.cs",
-              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\TileShop.API\\Controllers\\RatingController.cs",
-              "RelativeDocumentMoniker": "TileShop.API\\Controllers\\RatingController.cs",
-              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\TileShop.API\\Controllers\\RatingController.cs",
-              "RelativeToolTip": "TileShop.API\\Controllers\\RatingController.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAQwDAAAAAFAAAA",
+              "Title": "IBasketDetailsRepository.cs",
+              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.Domain\\Repositories\\IBasketDetailsRepository.cs",
+              "RelativeDocumentMoniker": "TileShop.Domain\\Repositories\\IBasketDetailsRepository.cs",
+              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.Domain\\Repositories\\IBasketDetailsRepository.cs",
+              "RelativeToolTip": "TileShop.Domain\\Repositories\\IBasketDetailsRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-25T13:15:03.628Z"
+              "WhenOpened": "2024-04-26T06:26:29.49Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
-              "Title": "RatingRepository.cs",
-              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\TileShop.Infrastructure\\Repositories\\RatingRepository.cs",
-              "RelativeDocumentMoniker": "TileShop.Infrastructure\\Repositories\\RatingRepository.cs",
-              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\TileShop.Infrastructure\\Repositories\\RatingRepository.cs",
-              "RelativeToolTip": "TileShop.Infrastructure\\Repositories\\RatingRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAIAAAA",
+              "DocumentIndex": 47,
+              "Title": "BasketsController.cs",
+              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.API\\Controllers\\BasketsController.cs",
+              "RelativeDocumentMoniker": "TileShop.API\\Controllers\\BasketsController.cs",
+              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.API\\Controllers\\BasketsController.cs",
+              "RelativeToolTip": "TileShop.API\\Controllers\\BasketsController.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAowDkAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-25T13:16:07.053Z"
+              "WhenOpened": "2024-04-26T05:02:59.06Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
-              "Title": "IRatingRepository.cs",
-              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\TileShop.Domain\\Repositories\\IRatingRepository.cs",
-              "RelativeDocumentMoniker": "TileShop.Domain\\Repositories\\IRatingRepository.cs",
-              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\TileShop.Domain\\Repositories\\IRatingRepository.cs",
-              "RelativeToolTip": "TileShop.Domain\\Repositories\\IRatingRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "DocumentIndex": 46,
+              "Title": "BasketService.cs",
+              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.Application\\Services\\BasketService.cs",
+              "RelativeDocumentMoniker": "TileShop.Application\\Services\\BasketService.cs",
+              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.Application\\Services\\BasketService.cs",
+              "RelativeToolTip": "TileShop.Application\\Services\\BasketService.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAASwDUAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-25T13:17:58.189Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 53,
-              "Title": "RatingToDto.cs",
-              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\TileShop.Application\\Profiles\\RatingToDto.cs",
-              "RelativeDocumentMoniker": "TileShop.Application\\Profiles\\RatingToDto.cs",
-              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\TileShop.Application\\Profiles\\RatingToDto.cs",
-              "RelativeToolTip": "TileShop.Application\\Profiles\\RatingToDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAzAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-25T13:19:04.829Z"
+              "WhenOpened": "2024-04-26T04:46:58.744Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 49,
-              "Title": "ReviewsController.cs",
-              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\TileShop.API\\Controllers\\ReviewsController.cs",
-              "RelativeDocumentMoniker": "TileShop.API\\Controllers\\ReviewsController.cs",
-              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\TileShop.API\\Controllers\\ReviewsController.cs",
-              "RelativeToolTip": "TileShop.API\\Controllers\\ReviewsController.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAQwCQAAAAAAAAA",
+              "Title": "BasketRepository.cs",
+              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.Infrastructure\\Repositories\\BasketRepository.cs",
+              "RelativeDocumentMoniker": "TileShop.Infrastructure\\Repositories\\BasketRepository.cs",
+              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.Infrastructure\\Repositories\\BasketRepository.cs",
+              "RelativeToolTip": "TileShop.Infrastructure\\Repositories\\BasketRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-25T00:43:11.07Z"
+              "WhenOpened": "2024-04-26T05:16:58.971Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 50,
-              "Title": "RatingService.cs",
-              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\TileShop.Application\\Services\\RatingService.cs",
-              "RelativeDocumentMoniker": "TileShop.Application\\Services\\RatingService.cs",
-              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\TileShop.Application\\Services\\RatingService.cs",
-              "RelativeToolTip": "TileShop.Application\\Services\\RatingService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAIBJwBIAAAAAAAAA",
+              "Title": "AuthenticationController.cs",
+              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.API\\Controllers\\AuthenticationController.cs",
+              "RelativeDocumentMoniker": "TileShop.API\\Controllers\\AuthenticationController.cs",
+              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.API\\Controllers\\AuthenticationController.cs",
+              "RelativeToolTip": "TileShop.API\\Controllers\\AuthenticationController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAABRwCUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-25T13:19:38.268Z"
+              "WhenOpened": "2024-04-25T18:29:39.377Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "LoginResponse.cs",
+              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.API\\Authentication\\Responses\\LoginResponse.cs",
+              "RelativeDocumentMoniker": "TileShop.API\\Authentication\\Responses\\LoginResponse.cs",
+              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.API\\Authentication\\Responses\\LoginResponse.cs",
+              "RelativeToolTip": "TileShop.API\\Authentication\\Responses\\LoginResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-26T04:25:10.945Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 52,
-              "Title": "ReviewService.cs",
-              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\TileShop.Application\\Services\\ReviewService.cs",
-              "RelativeDocumentMoniker": "TileShop.Application\\Services\\ReviewService.cs",
-              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\TileShop.Application\\Services\\ReviewService.cs",
-              "RelativeToolTip": "TileShop.Application\\Services\\ReviewService.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAQwCcAAAA0AAAA",
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.API\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "TileShop.API\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.API\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "TileShop.API\\Controllers\\UsersController.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAQwCgAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-25T13:22:51.884Z"
+              "WhenOpened": "2024-04-25T12:54:43.374Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "CreateUserRequest.cs",
+              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.API\\Users\\Requests\\CreateUserRequest.cs",
+              "RelativeDocumentMoniker": "TileShop.API\\Users\\Requests\\CreateUserRequest.cs",
+              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.API\\Users\\Requests\\CreateUserRequest.cs",
+              "RelativeToolTip": "TileShop.API\\Users\\Requests\\CreateUserRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T12:43:04.659Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "Review.cs",
+              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.Domain\\Entities\\Review.cs",
+              "RelativeDocumentMoniker": "TileShop.Domain\\Entities\\Review.cs",
+              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.Domain\\Entities\\Review.cs",
+              "RelativeToolTip": "TileShop.Domain\\Entities\\Review.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T19:52:10.335Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "Feature.cs",
+              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.Domain\\Entities\\Feature.cs",
+              "RelativeDocumentMoniker": "TileShop.Domain\\Entities\\Feature.cs",
+              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.Domain\\Entities\\Feature.cs",
+              "RelativeToolTip": "TileShop.Domain\\Entities\\Feature.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T19:55:29.096Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 56,
-              "Title": "BaseController.cs",
-              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\TileShop.API\\Controllers\\BaseController.cs",
-              "RelativeDocumentMoniker": "TileShop.API\\Controllers\\BaseController.cs",
-              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\TileShop.API\\Controllers\\BaseController.cs",
-              "RelativeToolTip": "TileShop.API\\Controllers\\BaseController.cs",
+              "Title": "FeatureValue.cs",
+              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.Domain\\Entities\\FeatureValue.cs",
+              "RelativeDocumentMoniker": "TileShop.Domain\\Entities\\FeatureValue.cs",
+              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.Domain\\Entities\\FeatureValue.cs",
+              "RelativeToolTip": "TileShop.Domain\\Entities\\FeatureValue.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-25T13:15:37.537Z"
+              "WhenOpened": "2024-04-24T19:55:50.309Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 57,
-              "Title": "TileShop.Application.csproj",
-              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\TileShop.Application\\TileShop.Application.csproj",
-              "RelativeDocumentMoniker": "TileShop.Application\\TileShop.Application.csproj",
-              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\TileShop.Application\\TileShop.Application.csproj",
-              "RelativeToolTip": "TileShop.Application\\TileShop.Application.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-04-25T00:49:14.903Z"
+              "Title": "Rating.cs",
+              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.Domain\\Entities\\Rating.cs",
+              "RelativeDocumentMoniker": "TileShop.Domain\\Entities\\Rating.cs",
+              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.Domain\\Entities\\Rating.cs",
+              "RelativeToolTip": "TileShop.Domain\\Entities\\Rating.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T19:51:12.049Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 59,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\TileShop.Infrastructure\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "TileShop.Infrastructure\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\TileShop.Infrastructure\\ApplicationDbContext.cs",
-              "RelativeToolTip": "TileShop.Infrastructure\\ApplicationDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAtAAAA",
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.API\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "TileShop.API\\Controllers\\CategoriesController.cs",
+              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.API\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "TileShop.API\\Controllers\\CategoriesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBZwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-25T00:30:46.743Z"
+              "WhenOpened": "2024-04-25T20:14:33.579Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 58,
-              "Title": "BasketDetails.cs",
-              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\TileShop.Domain\\Entities\\BasketDetails.cs",
-              "RelativeDocumentMoniker": "TileShop.Domain\\Entities\\BasketDetails.cs",
-              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\TileShop.Domain\\Entities\\BasketDetails.cs",
-              "RelativeToolTip": "TileShop.Domain\\Entities\\BasketDetails.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "CategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.Infrastructure\\Repositories\\CategoryRepository.cs",
+              "RelativeDocumentMoniker": "TileShop.Infrastructure\\Repositories\\CategoryRepository.cs",
+              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.Infrastructure\\Repositories\\CategoryRepository.cs",
+              "RelativeToolTip": "TileShop.Infrastructure\\Repositories\\CategoryRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T19:54:52.386Z"
+              "WhenOpened": "2024-04-25T20:14:44.498Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 60,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\TileShop.API\\appsettings.json",
-              "RelativeDocumentMoniker": "TileShop.API\\appsettings.json",
-              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\TileShop.API\\appsettings.json",
-              "RelativeToolTip": "TileShop.API\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-04-25T00:27:20.637Z"
+              "Title": "RatingController.cs",
+              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.API\\Controllers\\RatingController.cs",
+              "RelativeDocumentMoniker": "TileShop.API\\Controllers\\RatingController.cs",
+              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.API\\Controllers\\RatingController.cs",
+              "RelativeToolTip": "TileShop.API\\Controllers\\RatingController.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAQwDAAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T13:15:03.628Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "RatingRepository.cs",
+              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.Infrastructure\\Repositories\\RatingRepository.cs",
+              "RelativeDocumentMoniker": "TileShop.Infrastructure\\Repositories\\RatingRepository.cs",
+              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.Infrastructure\\Repositories\\RatingRepository.cs",
+              "RelativeToolTip": "TileShop.Infrastructure\\Repositories\\RatingRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T13:16:07.053Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "IRatingRepository.cs",
+              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.Domain\\Repositories\\IRatingRepository.cs",
+              "RelativeDocumentMoniker": "TileShop.Domain\\Repositories\\IRatingRepository.cs",
+              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.Domain\\Repositories\\IRatingRepository.cs",
+              "RelativeToolTip": "TileShop.Domain\\Repositories\\IRatingRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T13:17:58.189Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "RatingToDto.cs",
+              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.Application\\Profiles\\RatingToDto.cs",
+              "RelativeDocumentMoniker": "TileShop.Application\\Profiles\\RatingToDto.cs",
+              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.Application\\Profiles\\RatingToDto.cs",
+              "RelativeToolTip": "TileShop.Application\\Profiles\\RatingToDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T13:19:04.829Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 61,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\TileShop.Domain\\Entities\\User.cs",
-              "RelativeDocumentMoniker": "TileShop.Domain\\Entities\\User.cs",
-              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\TileShop.Domain\\Entities\\User.cs",
-              "RelativeToolTip": "TileShop.Domain\\Entities\\User.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "ReviewsController.cs",
+              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.API\\Controllers\\ReviewsController.cs",
+              "RelativeDocumentMoniker": "TileShop.API\\Controllers\\ReviewsController.cs",
+              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.API\\Controllers\\ReviewsController.cs",
+              "RelativeToolTip": "TileShop.API\\Controllers\\ReviewsController.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAQwCQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T19:44:31.844Z"
+              "WhenOpened": "2024-04-25T00:43:11.07Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 62,
+              "Title": "RatingService.cs",
+              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.Application\\Services\\RatingService.cs",
+              "RelativeDocumentMoniker": "TileShop.Application\\Services\\RatingService.cs",
+              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.Application\\Services\\RatingService.cs",
+              "RelativeToolTip": "TileShop.Application\\Services\\RatingService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwBIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T13:19:38.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "ReviewService.cs",
+              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.Application\\Services\\ReviewService.cs",
+              "RelativeDocumentMoniker": "TileShop.Application\\Services\\ReviewService.cs",
+              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.Application\\Services\\ReviewService.cs",
+              "RelativeToolTip": "TileShop.Application\\Services\\ReviewService.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwCcAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T13:22:51.884Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "BaseController.cs",
+              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.API\\Controllers\\BaseController.cs",
+              "RelativeDocumentMoniker": "TileShop.API\\Controllers\\BaseController.cs",
+              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.API\\Controllers\\BaseController.cs",
+              "RelativeToolTip": "TileShop.API\\Controllers\\BaseController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T13:15:37.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "TileShop.Application.csproj",
+              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.Application\\TileShop.Application.csproj",
+              "RelativeDocumentMoniker": "TileShop.Application\\TileShop.Application.csproj",
+              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.Application\\TileShop.Application.csproj",
+              "RelativeToolTip": "TileShop.Application\\TileShop.Application.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-25T00:49:14.903Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "BasketDetails.cs",
+              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.Domain\\Entities\\BasketDetails.cs",
+              "RelativeDocumentMoniker": "TileShop.Domain\\Entities\\BasketDetails.cs",
+              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.Domain\\Entities\\BasketDetails.cs",
+              "RelativeToolTip": "TileShop.Domain\\Entities\\BasketDetails.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T19:54:52.386Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.API\\appsettings.json",
+              "RelativeDocumentMoniker": "TileShop.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.API\\appsettings.json",
+              "RelativeToolTip": "TileShop.API\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-04-25T00:27:20.637Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.Domain\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "TileShop.Domain\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.Domain\\Entities\\User.cs",
+              "RelativeToolTip": "TileShop.Domain\\Entities\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-24T19:44:31.844Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
               "Title": "Category.cs",
-              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\TileShop.Domain\\Entities\\Category.cs",
+              "DocumentMoniker": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.Domain\\Entities\\Category.cs",
               "RelativeDocumentMoniker": "TileShop.Domain\\Entities\\Category.cs",
-              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\furniture\\server\\TileShop.Domain\\Entities\\Category.cs",
+              "ToolTip": "C:\\Users\\polta\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\gittt\\furniture\\server\\TileShop.Domain\\Entities\\Category.cs",
               "RelativeToolTip": "TileShop.Domain\\Entities\\Category.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T19:46:46.904Z"
+              "WhenOpened": "2024-04-24T19:46:46.904Z",
+              "EditorCaption": ""
             }
           ]
         }

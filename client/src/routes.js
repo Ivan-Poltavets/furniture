@@ -4,7 +4,7 @@ import {
     LOGIN_ROUTE, ORDERS_ROUTE, PRODUCT_ROUTE,
     REGISTRATION_ROUTE,
     SHOP_ROUTE,
-    PROFILE_ROUTE
+    PROFILE_ROUTE, CREATE_PRODUCT_ROUTE
 } from "./utils/consts";
 import Shop from "./pages/Shop";
 import Auth from "./pages/Auth";
@@ -14,6 +14,7 @@ import RegisterPage from "./pages/RegisterPage";
 import Order from "./pages/Order";
 import Dashboard from "./pages/Dashboard";
 import Profile from "./pages/Profile";
+import CreateProduct from "./pages/CreateProduct";
 
 export const authRoutes = [
     {
@@ -30,6 +31,13 @@ export const ownerRoutes = [
     {
         path: DASHBOARD_ROUTE,
         Component: Dashboard
+    }
+]
+
+export const adminRoutes = [
+    {
+        path: CREATE_PRODUCT_ROUTE,
+        Component: CreateProduct
     }
 ]
 
