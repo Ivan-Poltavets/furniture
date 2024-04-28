@@ -87,18 +87,21 @@ public class OrdersController : BaseController
 
             foreach(var order in ordersResponse)
             {
-                worksheet.Cells[row, 1].Value = order.Id;
-                worksheet.Cells[row, 2].Value = order.CreatedDate.GetDateTimeFormats();
-                worksheet.Cells[row, 3].Value = order.TotalPrice;
-                var productNames = new List<string>();
-                foreach(var details in order.Details)
+                if(order.Details.Count() > 0)
                 {
+                    worksheet.Cells[row, 1].Value = order.Id;
+                    worksheet.Cells[row, 2].Value = order.CreatedDate.GetDateTimeFormats();
+                    worksheet.Cells[row, 3].Value = order.TotalPrice;
+                    var productNames = new List<string>();
+                    foreach(var details in order.Details)
+                    {
                     productNames.Add(details.Product.Name);
+                    }
+
+                    worksheet.Cells[row, 4].Value = string.Join(',', productNames);
+
+                    row++;
                 }
-
-                worksheet.Cells[row, 4].Value = string.Join(',', productNames);
-
-                row++;
             }
 
             worksheet.Cells[worksheet.Dimension.Address].AutoFitColumns();
