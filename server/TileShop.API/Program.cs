@@ -69,8 +69,21 @@ using(var scope = app.Services.CreateScope())
         DatabaseSeed.SeedFeatureValues(appContext);
         DatabaseSeed.AddUsers(appContext);
         DatabaseSeed.SeedReviewFromCsv(appContext, "C:\\Users\\polta\\OneDrive\\Рабочий стол\\gittt\\reviews.csv");
-        DatabaseSeed.SeedOrders(appContext);
-        DatabaseSeed.SeedOrderDetails(appContext);
+        DatabaseSeed.AddOrders(appContext);
+        DatabaseSeed.AddOrderDetails(appContext);
+    }
+
+    var order = appContext.Order.FirstOrDefault(x => x.Id == 2);
+    if(order is null)
+    {
+        DatabaseSeed.AddOrders(appContext);
+        DatabaseSeed.AddOrderDetails(appContext);
+    }
+
+    var orderDetails = appContext.OrderDetails.FirstOrDefault(x => x.Id == 1);
+    if (orderDetails is null)
+    {
+        DatabaseSeed.AddOrderDetails(appContext);
     }
 }
 app.UseCors("AllowAll");

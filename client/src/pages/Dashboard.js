@@ -55,7 +55,7 @@ const Dashboard = () => {
                 const url = window.URL.createObjectURL(new Blob([data]));
                 const link = document.createElement('a');
                 link.href = url;
-                link.setAttribute('download', 'orders.txt'); // Ім'я файлу для завантаження
+                link.setAttribute('download', 'orders.xlsx'); // Ім'я файлу для завантаження
 
                 document.body.appendChild(link);
                 link.click();

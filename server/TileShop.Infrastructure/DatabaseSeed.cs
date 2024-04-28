@@ -121,7 +121,7 @@ public static class DatabaseSeed
             .RuleFor(x => x.CreatedDate, f => f.Date.Past())
             .RuleFor(x => x.TotalPrice, f => f.Random.Number(1000, 250000));
 
-        var orders = orderFaker.Generate(100);
+        var orders = orderFaker.Generate(1000);
         context.Order.AddRange(orders);
         context.SaveChanges();
     }
@@ -129,11 +129,11 @@ public static class DatabaseSeed
     public static void AddOrderDetails(ApplicationDbContext context)
     {
         var orderDetailsFaker = new Faker<OrderDetails>()
-            .RuleFor(x => x.ProductId, f => f.Random.Number(1, 100))
+            .RuleFor(x => x.ProductId, f => f.Random.Number(1, 60))
             .RuleFor(x => x.Quantity, f => f.Random.Number(1, 5))
-            .RuleFor(x => x.OrderId, f => f.Random.Number(1, 100))
+            .RuleFor(x => x.OrderId, f => f.Random.Number(1, 1000))
             .RuleFor(x => x.UnitPrice, f => f.Random.Number(1000, 20000));
-        var orderDetails = orderDetailsFaker.Generate(150);
+        var orderDetails = orderDetailsFaker.Generate(3000);
         context.OrderDetails.AddRange(orderDetails);
         context.SaveChanges();
 

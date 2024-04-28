@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
+using OfficeOpenXml;
 using TileShop.API.Order.Responses;
 using TileShop.Application.Services.Interfaces;
 using TileShop.Domain.Dtos;
@@ -69,22 +70,48 @@ public class OrdersController : BaseController
     [Route("last")]
     public async Task<IActionResult> GetOrdersForLast30DaysAsync()
     {
+        ExcelPackage.LicenseContext = LicenseContext.NonCommercial;
         var orders = await _orderService.GetOrdersForLast30DaysAsync();
         var ordersResponse = _mapper.Map<List<OrderResponse>>(orders);
-        
-        var ordersData = JsonConvert.SerializeObject(ordersResponse, Formatting.Indented);
-        var mimeType = "application/octet-stream";
-        
-        using(var memoryStream = new MemoryStream())
+
+
+        using(var excelPackage = new ExcelPackage())
         {
-            using(var streamWriter = new StreamWriter(memoryStream))
+            var worksheet = excelPackage.Workbook.Worksheets.Add("Orders");
+            worksheet.Cells[1, 1].Value = "ID";
+            worksheet.Cells[1, 2].Value = "Created date";
+            worksheet.Cells[1, 3].Value = "Total price";
+            worksheet.Cells[1, 4].Value = "Products";
+
+            int row = 2;
+
+            foreach(var order in ordersResponse)
             {
-                streamWriter.Write(ordersData);
-                streamWriter.Flush();
+                worksheet.Cells[row, 1].Value = order.Id;
+                worksheet.Cells[row, 2].Value = order.CreatedDate.GetDateTimeFormats();
+                worksheet.Cells[row, 3].Value = order.TotalPrice;
+                var productNames = new List<string>();
+                foreach(var details in order.Details)
+                {
+                    productNames.Add(details.Product.Name);
+                }
+
+                worksheet.Cells[row, 4].Value = string.Join(',', productNames);
+
+                row++;
+            }
+
+            worksheet.Cells[worksheet.Dimension.Address].AutoFitColumns();
+
+            using (var memoryStream = new MemoryStream())
+            {
+                excelPackage.SaveAs(memoryStream);
 
                 var fileContent = memoryStream.ToArray();
-                return File(fileContent, mimeType, "orders.txt");
+                var mimeType = "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet";
+                return File(fileContent, mimeType, "orders.xlsx");
             }
+
         }
     }
 }
